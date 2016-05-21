@@ -8,16 +8,27 @@ I'm suddenly a huge fan of text files. Blogging w/ just text files -- why is tha
 
 Not that it is all text. I just learned that if you type this:
 
-```
+{% highlight markdown %}
 ![Straws in a window]({{ site.url }}/files/IMG_1847.jpg)
-
-```
+{% endhighlight %}
 
 You can make this happen:
 
 ![Straws in a window]({{ site.url }}/files/IMG_1847.jpg)
 
-What's next? Maybe:
+Hopefully soon I will get a chance to try this out:
+
+{% highlight html %}
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+{% endhighlight %}
+
+What's next after that? Maybe more text?
 
 * [Git](https://www.codecademy.com/learn/learn-git)
 * [xml](http://www.w3schools.com/xml/default.asp)
