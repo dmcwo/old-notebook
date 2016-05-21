@@ -4,28 +4,56 @@
     <title>notebook</title>
     <description>a place to jot things down.
 </description>
-    <link>http://yourdomain.com/notebook/</link>
-    <atom:link href="http://yourdomain.com/notebook/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 May 2016 22:02:09 -0700</pubDate>
-    <lastBuildDate>Fri, 20 May 2016 22:02:09 -0700</lastBuildDate>
+    <link>http://dmcwo.github.io/notebook/notebook/</link>
+    <atom:link href="http://dmcwo.github.io/notebook/notebook/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 21 May 2016 09:28:15 -0700</pubDate>
+    <lastBuildDate>Sat, 21 May 2016 09:28:15 -0700</lastBuildDate>
     <generator>Jekyll v3.1.5</generator>
     
       <item>
+        <title>Jekyll posts and pages.</title>
+        <description>&lt;p&gt;Today I’m hoping to learn how &lt;a href=&quot;https://jekyllrb.com/docs/pages/&quot;&gt;Jekyll handles pages&lt;/a&gt; and also how to control chronological vs. reverse chronological organization of posts.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 May 2016 09:20:29 -0700</pubDate>
+        <link>http://dmcwo.github.io/notebook/notebook/jekyll/update/2016/05/21/a-post-about-pages.html</link>
+        <guid isPermaLink="true">http://dmcwo.github.io/notebook/notebook/jekyll/update/2016/05/21/a-post-about-pages.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
         <title>Text is the best.</title>
-        <description>&lt;p&gt;I’m suddenly a huge fan of text files. Creating an entire website through text files – why is that so cool? For some reason, it really is. I first got started playing around with &lt;jekyllrb.com&gt; and/or &amp;lt;http://howto.p2pu.org/&amp;gt; both of which made me think that static is the new dynamic, for real.&lt;/jekyllrb.com&gt;&lt;/p&gt;
+        <description>&lt;p&gt;I’m suddenly a huge fan of text files. Blogging w/ just text files – why is that so cool? For some reason, it really is. I first got started playing around with &lt;a href=&quot;jekyllrb.com&quot;&gt;jekyll&lt;/a&gt; and then learned about &lt;a href=&quot;http://howto.p2pu.org/&quot;&gt;course-in-a-box&lt;/a&gt; both of which made me think that static is the new dynamic, for real.&lt;/p&gt;
 
 &lt;p&gt;Not that it is all text. I just learned that if you type this:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Straws in a window](/files/IMG_1847.jpg)
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Straws in a window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;http://dmcwo.github.io/notebook/files/IMG_1847.jpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;You can make this happen:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/files/IMG_1847.jpg&quot; alt=&quot;Straws in a window&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://dmcwo.github.io/notebook/files/IMG_1847.jpg&quot; alt=&quot;Straws in a window&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;What’s next? Maybe:&lt;/p&gt;
+&lt;p&gt;Hopefully soon I will get a chance to try this out:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+  
+    &amp;lt;li&amp;gt;
+      &amp;lt;a href=&quot;/jekyll/update/2016/05/21/a-post-about-pages.html&quot;&amp;gt;Jekyll posts and pages.&amp;lt;/a&amp;gt;
+    &amp;lt;/li&amp;gt;
+  
+    &amp;lt;li&amp;gt;
+      &amp;lt;a href=&quot;/jekyll/update/2016/05/20/text-is-the-best.html&quot;&amp;gt;Text is the best.&amp;lt;/a&amp;gt;
+    &amp;lt;/li&amp;gt;
+  
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;What’s next after that? Maybe more text?&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-git&quot;&gt;Git&lt;/a&gt;&lt;/li&gt;
@@ -43,8 +71,8 @@
 
 </description>
         <pubDate>Fri, 20 May 2016 21:12:29 -0700</pubDate>
-        <link>http://yourdomain.com/notebook/jekyll/update/2016/05/20/text-is-great.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/notebook/jekyll/update/2016/05/20/text-is-great.html</guid>
+        <link>http://dmcwo.github.io/notebook/notebook/jekyll/update/2016/05/20/text-is-the-best.html</link>
+        <guid isPermaLink="true">http://dmcwo.github.io/notebook/notebook/jekyll/update/2016/05/20/text-is-the-best.html</guid>
         
         
         <category>jekyll</category>
