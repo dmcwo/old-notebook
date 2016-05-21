@@ -38,5 +38,3 @@ and then, maybe, this, too:
 
 * [Social Science Specialization](https://www.coursera.org/specializations/social-science)
 
-And write a bunch of notes about it all using <jekyllrb.com> and/or <http://howto.p2pu.org/>
-
