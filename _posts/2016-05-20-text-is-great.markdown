@@ -18,7 +18,7 @@ You can make this happen:
 
 Hopefully soon I will get a chance to try this out:
 
-{% highlight html %}
+```
 <ul>
   {% for post in site.posts %}
     <li>
@@ -26,7 +26,7 @@ Hopefully soon I will get a chance to try this out:
     </li>
   {% endfor %}
 </ul>
-{% endhighlight %}
+```
 
 What's next after that? Maybe more text?
 
