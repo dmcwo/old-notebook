@@ -9,13 +9,13 @@ I'm suddenly a huge fan of text files. Creating an entire website through text f
 Not that it is all text. I just learned that if you type this:
 
 ```
-![Straws in a window]({{ http://dmcwo.github.io/notebook }}/files/IMG_1847.jpg)
+![Straws in a window]({{ site.url }}/files/IMG_1847.jpg)
 
 ```
 
 You can make this happen:
 
-![Straws in a window]({{ http://dmcwo.github.io/notebook }}/files/IMG_1847.jpg)
+![Straws in a window]({{ site.url }}/files/IMG_1847.jpg)
 
 What's next? Maybe:
 
