@@ -4,7 +4,7 @@ title:  "Text is the best."
 date:   2016-05-20 21:12:29 -0700
 categories: jekyll update
 ---
-I'm suddenly a huge fan of text files. Creating an entire website through text files -- why is that so cool? For some reason, it really is. I first got started playing around with <jekyllrb.com> and/or <http://howto.p2pu.org/> both of which made me think that static is the new dynamic, for real.
+I'm suddenly a huge fan of text files. Blogging w/ just text files -- why is that so cool? For some reason, it really is. I first got started playing around with <jekyllrb.com> and/or <http://howto.p2pu.org/> both of which made me think that static is the new dynamic, for real.
 
 Not that it is all text. I just learned that if you type this:
 
