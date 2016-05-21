@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>notebook</title>
+    <description>a place to jot things down.
+</description>
+    <link>http://yourdomain.com/notebook/</link>
+    <atom:link href="http://yourdomain.com/notebook/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 20 May 2016 22:02:09 -0700</pubDate>
+    <lastBuildDate>Fri, 20 May 2016 22:02:09 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.5</generator>
+    
+      <item>
+        <title>Text is the best.</title>
+        <description>&lt;p&gt;I’m suddenly a huge fan of text files. Creating an entire website through text files – why is that so cool? For some reason, it really is. I first got started playing around with &lt;jekyllrb.com&gt; and/or &amp;lt;http://howto.p2pu.org/&amp;gt; both of which made me think that static is the new dynamic, for real.&lt;/jekyllrb.com&gt;&lt;/p&gt;
+
+&lt;p&gt;Not that it is all text. I just learned that if you type this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Straws in a window](/files/IMG_1847.jpg)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can make this happen:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/IMG_1847.jpg&quot; alt=&quot;Straws in a window&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What’s next? Maybe:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codecademy.com/learn/learn-git&quot;&gt;Git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.w3schools.com/xml/default.asp&quot;&gt;xml&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.markdowntutorial.com/&quot;&gt;markdown&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;more markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and then, maybe, this, too:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/social-science&quot;&gt;Social Science Specialization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And write a bunch of notes about it all using &lt;jekyllrb.com&gt; and/or &amp;lt;http://howto.p2pu.org/&amp;gt;&lt;/jekyllrb.com&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 20 May 2016 21:12:29 -0700</pubDate>
+        <link>http://yourdomain.com/notebook/jekyll/update/2016/05/20/text-is-great.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/notebook/jekyll/update/2016/05/20/text-is-great.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

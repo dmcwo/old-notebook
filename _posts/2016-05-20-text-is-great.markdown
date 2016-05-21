@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Text is the best."
+date:   2016-05-20 21:12:29 -0700
+categories: jekyll update
+---
+I'm suddenly a huge fan of text files. Creating an entire website through text files -- why is that so cool? For some reason, it really is. I first got started playing around with <jekyllrb.com> and/or <http://howto.p2pu.org/> both of which made me think that static is the new dynamic, for real.
+
+Not that it is all text. I just learned that if you type this:
+
+```
+![Straws in a window]({{ http://dmcwo.github.io/notebook }}/files/IMG_1847.jpg)
+
+```
+
+You can make this happen:
+
+![Straws in a window]({{ http://dmcwo.github.io/notebook }}/files/IMG_1847.jpg)
+
+What's next? Maybe:
+
+* [Git](https://www.codecademy.com/learn/learn-git)
+* [xml](http://www.w3schools.com/xml/default.asp)
+* [markdown](http://www.markdowntutorial.com/) & [more markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+and then, maybe, this, too:
+
+* [Social Science Specialization](https://www.coursera.org/specializations/social-science)
+
+And write a bunch of notes about it all using <jekyllrb.com> and/or <http://howto.p2pu.org/>
+
