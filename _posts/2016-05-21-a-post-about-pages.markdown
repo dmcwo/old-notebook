@@ -24,3 +24,13 @@ $base-font-family: 'Arvo', "Helvetica Neue", Helvetica, Arial, sans-serif;
 Fun!
 
 Next up, maybe something like [next and previous buttons](http://jdp.org.uk/jekyll/2015/06/01/next-and-previous-posts-in-jekyll.html)
+
+And also, maybe I'll work on creating a zotero citation export format to markdown, so that Zotero can export something like this:
+
+```
+* [Writing, Searching, Thinking, Learning: Cross-Training Peer Research and Writing Tutors to Maximize Student Success](http://www.loexconference.org/sessions.html). Presented at the LOEX Annual Conference in Grand Rapids, MI on May 10, 2014.
+```
+
+which will then display like this:
+
+* [Writing, Searching, Thinking, Learning: Cross-Training Peer Research and Writing Tutors to Maximize Student Success](http://www.loexconference.org/sessions.html). Presented at the LOEX Annual Conference in Grand Rapids, MI on May 10, 2014.
