@@ -22,3 +22,5 @@ $base-font-family: 'Arvo', "Helvetica Neue", Helvetica, Arial, sans-serif;
 ```
 
 Fun!
+
+Next up, maybe something like [next and previous buttons](http://jdp.org.uk/jekyll/2015/06/01/next-and-previous-posts-in-jekyll.html)
