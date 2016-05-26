@@ -34,3 +34,9 @@ And also, maybe I'll work on creating a zotero citation export format to markdow
 which will then display like this:
 
 * [Writing, Searching, Thinking, Learning: Cross-Training Peer Research and Writing Tutors to Maximize Student Success](http://www.loexconference.org/sessions.html). Presented at the LOEX Annual Conference in Grand Rapids, MI on May 10, 2014.
+
+More things to learn
+
+* [Accordians](http://www.w3schools.com/howto/howto_js_accordion.asp)
+
+* [Bootstrap](http://www.w3schools.com/bootstrap/default.asp)
