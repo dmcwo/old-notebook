@@ -106,12 +106,107 @@ permalink: /cv/
 * Bring Community to Class with Instant Documentaries. Presented at Teaching English to Speakers of Other Languages (TESOL) in Long Beach, CA on April, 2004.
 * Unrehearsed Communication in Low Level ESL Classrooms. Presented at San Francisco State University MA TESOL Conference in San Francisco, CA on May, 2002.
 
-## Media Production
-* Audio Producer, [Personalidades de la Cultura Hispánica](https://itunes.apple.com/us/podcast/personalidades-la-cultura/id147971315?mt=2), UW Madison Department of Spanish and Portuguese. "Listen and learn as prominent voices from Hispanic Culture discuss exciting topics in different fields. From music and film to politics and travel, these podcasts provide entertaining and knowledgeable insight to the Latin American and Spanish world." <!-- there was a news article: Podcasts bring UW students the sounds of Spanish. Capital Times, 5/24/06 -->
-* Audio Producer, [Cartoneras Podcast Series](http://researchguides.library.wisc.edu/cartoneras/cartonerasocialmedia)
-* Audio Producer, [Perspektiven](http://german.lss.wisc.edu/podcast/Perspektiven) "Perspektiven with Minka and Markus is geared towards first semester college-level German learners looking for a fun and exciting way to practice their German. Learn German through Minka and Markus' various discussions, interviews and entertaining conversations without the textbook format traditionally used in class!"
-* Audio Producer, [Das treffende Wort](http://german.lss.wisc.edu/podcast/Das_treffende_Wort) "Join Käthe and Manfred for informal lessons on the German language and culture! This show is geared for intermediate learners of German." <!-- News feature on apple site from internet archive: https://web.archive.org/web/20080305110420/http://www.apple.com/education/profiles/wisconsin-madison/ -->
-* Audio Producer, [Neerlandia-journaal](http://german.lss.wisc.edu/podcast/Neerlandia_Journaal) "Learn Dutch vocabulary, grammar, and culture through a monthly newscast about the Netherlands!"
+## Community Building, Committee Service, Projects, and Strategic Leadership
+
+### Association of College and Research Libraries (ACRL)
+
+Undergraduate Librarian’s Discussion Group. Convener. 2014-2016.
 
 
 
+### UCLA
+* Steering Committee for Onling Teaching & Learning. 
+* Office of Residential Life Academic Development Committee.
+* Instructional Media Lab Task Force. Convened by Associate Vice Provost Larry Loeher. November 2014 – present.
+* Writing Committee. Convened by Dean David Schaberg. November 2014-present.
+* Office of Residential Life Academic Development Committee. Fall 2012 – present.
+* Hiring Committee. Director, Undergraduate Research Center, Humanities, Arts, and Social Sciences. Summer 2013.
+
+### UCLA Library
+* Strategic Planning Steering Committee. Member. May 2015 - March 2016
+* Strategic Planning - Teaching & Learning Working Group. Lead. June 2015 - March 2016.
+* Teaching & Learning Services Leadership Group. May 2014-present.
+* Library - CCLE (Common Collaborative Learning Environment) Bridge Team. October 2013 – March .
+* UCLA Library Common Content Team. Co-chair. May 2014 - September 2014.
+* Stressbusters Team. Fall 2012 – Spring 2014.
+* UCLA Library First Year Experience Team. Co-chair. June 2013 - March 2016.
+* TLS Online Learning Working Group. Lead. May 2013 – March 2016.
+* Stressbusters Team. Chair. Spring 2013-Spring 2014.
+* Evaluation to Value Team. Co-chair. February 2013-present.
+* Topics in Teaching & Learning Workshop Series. Lead. February 2013 - March 2016.
+* OPERATE-UP (Online Presence Enhancements and Refinements Action Team - Unit Priorities Task Force). Chair. December 2012 – February 2013.
+* OPERATE (Online Presence Enhancements and Refinements Action Team). November 2012 – November, 2014.
+* Hiring Committee. CLICC/DIIT Programmer/Analyst. October, 2012 - February 2013.
+* Public Services Council. September 2012 – present.
+* Powell Technology Project Team (Digital Signage and Exhibits). September 2012 – March 2013.
+
+### University of Wisconsin - Madison 
+* ComETS (Community of Education Technology Support at UW-Madison). Chair - Steering Committee - 2011-2012. Steering Committee Member and Chair - Membership and Community Team - 2009-2011.
+* UW Madison Drupal Users Group. 2009 – 2012. Lead Community Organizer.
+* Retirement Issues Committee. Fall 2006 – Spring 2011. Member and Website Design Co-Chair.
+* Personal Publishing: e-Learning Roadmap Proposal Team - Fall 2009-Spring 2010. Co-author.
+* Engage Digital Media Assignments Award. 2009-2010, Shaping Committee, Technology Team, Support Team.
+* CIO’s Strategic Plan Work Team. 2009. Co-authored 3 Strategic Plan Charters: Gauge instructional impact, Establish an innovation incubator, Offer a suite of instructional technologies.
+* Provost’s Technology Enhanced Learning (TEL) Shaping Committee. 2007-2008.
+* Engage Technology Enhanced Collaborative Group Work Award. 2008-2009, Support Team.
+
+## UCLA Credit Courses Taught
+
+### Honors 101I: Research Today, Sources, Tools, and Strategies. Co-taught with Margarita Nakpaktitis. Winter 2013, 2014, 2015.
+
+An introduction to the research process in the digital age, offering opportunities to develop research skills through exploration of library and Internet resources, exposure to rare and unique materials, experimentation with digital tools, engagement with librarians and other experts, and interactive creation of a research project proposal. Designed to prepare students for capstone or thesis experience in humanities or social sciences.
+
+### Digital Humanities 199/299: Directed Research & Special Projects in Digital Humanities – Mapping Cultural Los Angeles. Co-taught with Kelly Miller. Spring 2013.
+
+In this Digital Humanities capstone course, students worked collaboratively to create a prototype for the interactive online web presence for the Lyrical Map of the Concept of Los Angeles and present their work and learning at the Digital Humanities Capstone Showcase. (See Appendix A).
+
+## Selected workshops Taught
+
+* Memorable, Meaningful, Transformative Learning. With Julia Glassman. March 31, 2016.
+* Mapping the Learning Landscape - A hands-on workshop in mapping the curriculum, defining learning pathways, and planning for strategic instructional engagement. 10/16/14.
+* Journal Club – Let’s talk about recent research in teaching, learning, and libraries. 3/20/14.
+* Reference and Research Assistance. With Allison Benedetti. 2/20/14.
+* Highlights of ACRL Program Track Immersion. 8/15/13.
+* Drupal/Wordpress – Open Source Platforms for Creating Websites. 8/7/13.
+* Overview of Improvements to SIA & Stats. With Allison Benedetti. 7/18/13.
+* Leveraging Your Instructional Feedback. 6/20/13.
+* Pair Work, Group Work, What Works?!. 2/21/13.
+* Peer Observation and Feedback. With Margarita Nafpaktitis. 11/6/12 & 11/12/12.
+* Drupal Start Kit – a series of meetings designed to give library, DIIT, and digital library staff a foundation in Drupal site development. Feb – July 2014.
+
+## Online Learning and Multimedia
+
+### Online Modules
+
+Mapping Your Research Ideas. With Renee Romero and Emily Appleton. [YouTube](http://youtube.com/watch?v=jj-F6YVtsxI) 
+
+### Research Guides
+
+[Disability Studies](guides.library.ucla.edu/disability-studies/). 
+
+[General Education Cluster 21: History of Modern Thought](http://guides.library.ucla.edu/ge21) - includes dynamic timeline of Modern Thought authors with links to encyclopedia entries as well as a visual slideshow of early editions of course readings found at the Clark Library. (See Appendix D).
+
+### Exhibits
+
+UCLA Student Travel Photography Exhibit for International Education Week.
+
+Created, designed, and developed: Beat 101 Digital Exhibit for iPad. Powell Rotunda. Spring 2013. (Content curation and related physical exhibit by Susan Anderson.) (See Appendix E).
+
+### Academic Podcast Production
+
+<!-- would be fun to try this with css tiles: http://stackoverflow.com/questions/19903207/css-showing-an-unsorted-list-in-a-tile-like-style -->
+
+<div style="width: 100%; text-align:center; display:block; overflow:auto;">
+<a href="https://itunes.apple.com/us/podcast/personalidades-la-cultura/id147971315?mt=2"><img src="https://www.evernote.com/l/AN8TedIT3IdJ2pdtUvDbSnpyOH-zXja2oVQB/image.jpg" alt="Podcast Cover: Personalidades de la Cultura Hispánica" align="left" style="margin: 1px; max-width: 30%; max-height: 170px; "></a> <a href="http://german.lss.wisc.edu/podcast/Perspektiven"><img src="https://www.evernote.com/l/AN8ufFjkCGNE1IcWcyURua0KZF4ufHhpZc0B/image.jpg" alt="Podcast Cover: Perspektiven" align="left" style="margin: 1px; max-width: 30%; max-height: 170px;" height="170px"></a> <a href="http://german.lss.wisc.edu/podcast/Das_treffende_Wort"><img src="https://www.evernote.com/l/AN8S-pUpq_dIXJOKBOEYsMrbHonyi5k4pYIB/image.jpg" alt="Podcast Cover: Das treffende Wort" align="left" style="margin: 1px; max-width: 30%; max-height: 170px;"></a> <br />
+</div>
+ 
+
+[Personalidades de la Cultura Hispánica](https://itunes.apple.com/us/podcast/personalidades-la-cultura/id147971315?mt=2), UW Madison Department of Spanish and Portuguese. "Listen and learn as prominent voices from Hispanic Culture discuss exciting topics in different fields. From music and film to politics and travel, these podcasts provide entertaining and knowledgeable insight to the Latin American and Spanish world." <!-- there was a news article: Podcasts bring UW students the sounds of Spanish. Capital Times, 5/24/06 -->
+
+[Cartoneras Podcast Series](http://researchguides.library.wisc.edu/cartoneras/cartonerasocialmedia)
+
+[Perspektiven](http://german.lss.wisc.edu/podcast/Perspektiven), "Perspektiven with Minka and Markus is geared towards first semester college-level German learners looking for a fun and exciting way to practice their German. Learn German through Minka and Markus' various discussions, interviews and entertaining conversations without the textbook format traditionally used in class!" 
+
+[Das treffende Wort](http://german.lss.wisc.edu/podcast/Das_treffende_Wort) "Join Käthe and Manfred for informal lessons on the German language and culture! This show is geared for intermediate learners of German." <!-- News feature on apple site from internet archive: https://web.archive.org/web/20080305110420/http://www.apple.com/education/profiles/wisconsin-madison/ -->
+
+[Neerlandia-journaal](http://german.lss.wisc.edu/podcast/Neerlandia_Journaal) "Learn Dutch vocabulary, grammar, and culture through a newscast about the Netherlands!"
