@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Footnotes and markdown</title>
-  <meta name="description" content="I’ve been really inspired by Jason Heppler’s Open History Notebook and other similar projects I’ve run into recently1. These public note taking sites live ou...">
+  <meta name="description" content="Footnotes are good:">
 
 <!-- CSS -->
 
@@ -90,19 +90,18 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>I’ve been really inspired by <a href="http://notebook.jasonheppler.org/">Jason Heppler’s Open History Notebook</a> and other similar projects I’ve run into recently<sup id="fnref:fn-example-notebooks"><a href="#fn:fn-example-notebooks" class="footnote">1</a></sup>. These public note taking sites live out many of the things I aspire to with notebooks: I like the focus on publishing the process (and process as scholarship), as well as the way that making the architecture of the notebook is an integral part of the creative act of writing the notes.</p>
-
-<p>One of the many cool things about the <a href="http://www.jasonheppler.org/2016/02/09/my-open-history-notebook/">Open History Notebook</a> is the use of footnotes with markdown/jekyll. Here’s some experiments w/ getting this set up:</p>
+    <p>Footnotes are good:</p>
 
 <h2 id="basic-footnotes">Basic footnotes</h2>
 
 <p>You can add a footnote in markdown with <code class="highlighter-rouge">[^fn-title-of-footnote]</code>, e.g.,:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>&gt; As global librarians, we can stop treating the library as a destination and start treating it as a hub.[^fn-wilkinson]
+<div class="highlighter-rouge"><pre class="highlight"><code>As global librarians, we can stop treating the library as a destination
+and start treating it as a hub.[^fn-wilkinson]
 </code></pre>
 </div>
 
-<p>Then, at the bottom of the page, add the text that you want to appear as a footnote:</p>
+<p>Then, at the bottom of the page, add the name of the footnote again, followed by <code class="highlighter-rouge">:</code> and then text that you want to appear as a footnote:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>[^fn-wilkinson]: [Skills That Transfer: Transliteracy and the Global Librarian (ACRL/NY 2011 Symposium)](http://www.slideshare.net/lanewilkinson)
 </code></pre>
@@ -138,28 +137,25 @@
 
 <h3 id="text-footnote">Text footnote</h3>
 <blockquote>
-  <p>As global librarians, we can stop treating the library as a destination and start treating it as a hub.<sup id="fnref:fn-wilkinson-text"><a href="#fn:fn-wilkinson-text" class="footnote">2</a></sup></p>
+  <p>As global librarians, we can stop treating the library as a destination and start treating it as a hub.<sup id="fnref:fn-wilkinson-text"><a href="#fn:fn-wilkinson-text" class="footnote">1</a></sup></p>
 </blockquote>
 
 <h3 id="text-footnote-w-link">Text footnote w/ link</h3>
 
 <blockquote>
-  <p>As global librarians, we can stop treating the library as a destination and start treating it as a hub.<sup id="fnref:fn-wilkinson-text-link"><a href="#fn:fn-wilkinson-text-link" class="footnote">3</a></sup></p>
+  <p>As global librarians, we can stop treating the library as a destination and start treating it as a hub.<sup id="fnref:fn-wilkinson-text-link"><a href="#fn:fn-wilkinson-text-link" class="footnote">2</a></sup></p>
 </blockquote>
 
 <h3 id="image-footnotes-w-links">Image footnotes w/ links?</h3>
 
 <blockquote>
-  <p>As global librarians, we can stop treating the library as a destination<sup id="fnref:fn-wilkinson-image-1"><a href="#fn:fn-wilkinson-image-1" class="footnote">4</a></sup> and start treating it as a hub.<sup id="fnref:fn-wilkinson-image-2"><a href="#fn:fn-wilkinson-image-2" class="footnote">5</a></sup></p>
+  <p>As global librarians, we can stop treating the library as a destination<sup id="fnref:fn-wilkinson-image-1"><a href="#fn:fn-wilkinson-image-1" class="footnote">3</a></sup> and start treating it as a hub.<sup id="fnref:fn-wilkinson-image-2"><a href="#fn:fn-wilkinson-image-2" class="footnote">4</a></sup></p>
 </blockquote>
 
 <p>Apologies in advance for the many footnotes to come….</p>
 
 <div class="footnotes">
   <ol>
-    <li id="fn:fn-example-notebooks">
-      <p>e.g., <a href="https://en.wikipedia.org/w/index.php?title=Open_notebook_science&amp;oldid=719360582">Open Notebook Science</a>, <a href="https://electricarchaeology.ca/2015/10/06/an-elegant-open-notebook/">An Elegant Open Notebook</a>, and <a href="http://notebook.lincolnmullen.com/">Welcome to My Research Notebook</a>. <a href="#fnref:fn-example-notebooks" class="reversefootnote">&#8617;</a></p>
-    </li>
     <li id="fn:fn-wilkinson-text">
       <p>Skills That Transfer: Transliteracy and the Global Librarian (ACRL/NY 2011 Symposium)] - http://www.slideshare.net/lanewilkinson <a href="#fnref:fn-wilkinson-text" class="reversefootnote">&#8617;</a></p>
     </li>

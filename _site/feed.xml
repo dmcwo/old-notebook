@@ -6,25 +6,24 @@
 </description>
     <link>http://dmcwo.github.io/notebook/notebook/</link>
     <atom:link href="http://dmcwo.github.io/notebook/notebook/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 May 2016 21:20:28 -0700</pubDate>
-    <lastBuildDate>Sat, 28 May 2016 21:20:28 -0700</lastBuildDate>
+    <pubDate>Sat, 28 May 2016 22:42:09 -0700</pubDate>
+    <lastBuildDate>Sat, 28 May 2016 22:42:09 -0700</lastBuildDate>
     <generator>Jekyll v3.1.5</generator>
     
       <item>
         <title>Footnotes and markdown</title>
-        <description>&lt;p&gt;I’ve been really inspired by &lt;a href=&quot;http://notebook.jasonheppler.org/&quot;&gt;Jason Heppler’s Open History Notebook&lt;/a&gt; and other similar projects I’ve run into recently&lt;sup id=&quot;fnref:fn-example-notebooks&quot;&gt;&lt;a href=&quot;#fn:fn-example-notebooks&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. These public note taking sites live out many of the things I aspire to with notebooks: I like the focus on publishing the process (and process as scholarship), as well as the way that making the architecture of the notebook is an integral part of the creative act of writing the notes.&lt;/p&gt;
-
-&lt;p&gt;One of the many cool things about the &lt;a href=&quot;http://www.jasonheppler.org/2016/02/09/my-open-history-notebook/&quot;&gt;Open History Notebook&lt;/a&gt; is the use of footnotes with markdown/jekyll. Here’s some experiments w/ getting this set up:&lt;/p&gt;
+        <description>&lt;p&gt;Footnotes are good:&lt;/p&gt;
 
 &lt;h2 id=&quot;basic-footnotes&quot;&gt;Basic footnotes&lt;/h2&gt;
 
 &lt;p&gt;You can add a footnote in markdown with &lt;code class=&quot;highlighter-rouge&quot;&gt;[^fn-title-of-footnote]&lt;/code&gt;, e.g.,:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; As global librarians, we can stop treating the library as a destination and start treating it as a hub.[^fn-wilkinson]
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;As global librarians, we can stop treating the library as a destination
+and start treating it as a hub.[^fn-wilkinson]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Then, at the bottom of the page, add the text that you want to appear as a footnote:&lt;/p&gt;
+&lt;p&gt;Then, at the bottom of the page, add the name of the footnote again, followed by &lt;code class=&quot;highlighter-rouge&quot;&gt;:&lt;/code&gt; and then text that you want to appear as a footnote:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[^fn-wilkinson]: [Skills That Transfer: Transliteracy and the Global Librarian (ACRL/NY 2011 Symposium)](http://www.slideshare.net/lanewilkinson)
 &lt;/code&gt;&lt;/pre&gt;
@@ -60,28 +59,25 @@
 
 &lt;h3 id=&quot;text-footnote&quot;&gt;Text footnote&lt;/h3&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;As global librarians, we can stop treating the library as a destination and start treating it as a hub.&lt;sup id=&quot;fnref:fn-wilkinson-text&quot;&gt;&lt;a href=&quot;#fn:fn-wilkinson-text&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+  &lt;p&gt;As global librarians, we can stop treating the library as a destination and start treating it as a hub.&lt;sup id=&quot;fnref:fn-wilkinson-text&quot;&gt;&lt;a href=&quot;#fn:fn-wilkinson-text&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;text-footnote-w-link&quot;&gt;Text footnote w/ link&lt;/h3&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;As global librarians, we can stop treating the library as a destination and start treating it as a hub.&lt;sup id=&quot;fnref:fn-wilkinson-text-link&quot;&gt;&lt;a href=&quot;#fn:fn-wilkinson-text-link&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+  &lt;p&gt;As global librarians, we can stop treating the library as a destination and start treating it as a hub.&lt;sup id=&quot;fnref:fn-wilkinson-text-link&quot;&gt;&lt;a href=&quot;#fn:fn-wilkinson-text-link&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;image-footnotes-w-links&quot;&gt;Image footnotes w/ links?&lt;/h3&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;As global librarians, we can stop treating the library as a destination&lt;sup id=&quot;fnref:fn-wilkinson-image-1&quot;&gt;&lt;a href=&quot;#fn:fn-wilkinson-image-1&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; and start treating it as a hub.&lt;sup id=&quot;fnref:fn-wilkinson-image-2&quot;&gt;&lt;a href=&quot;#fn:fn-wilkinson-image-2&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+  &lt;p&gt;As global librarians, we can stop treating the library as a destination&lt;sup id=&quot;fnref:fn-wilkinson-image-1&quot;&gt;&lt;a href=&quot;#fn:fn-wilkinson-image-1&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; and start treating it as a hub.&lt;sup id=&quot;fnref:fn-wilkinson-image-2&quot;&gt;&lt;a href=&quot;#fn:fn-wilkinson-image-2&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Apologies in advance for the many footnotes to come….&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
-    &lt;li id=&quot;fn:fn-example-notebooks&quot;&gt;
-      &lt;p&gt;e.g., &lt;a href=&quot;https://en.wikipedia.org/w/index.php?title=Open_notebook_science&amp;amp;oldid=719360582&quot;&gt;Open Notebook Science&lt;/a&gt;, &lt;a href=&quot;https://electricarchaeology.ca/2015/10/06/an-elegant-open-notebook/&quot;&gt;An Elegant Open Notebook&lt;/a&gt;, and &lt;a href=&quot;http://notebook.lincolnmullen.com/&quot;&gt;Welcome to My Research Notebook&lt;/a&gt;. &lt;a href=&quot;#fnref:fn-example-notebooks&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
     &lt;li id=&quot;fn:fn-wilkinson-text&quot;&gt;
       &lt;p&gt;Skills That Transfer: Transliteracy and the Global Librarian (ACRL/NY 2011 Symposium)] - http://www.slideshare.net/lanewilkinson &lt;a href=&quot;#fnref:fn-wilkinson-text&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
@@ -114,7 +110,7 @@
 
 &lt;p&gt;I’ve been thinking, continually, about notebooks. I’ve always wanted to be one of those people with shelves of moleskines, each one full of ideas and dreamwork. I’m not sure when it started. Certainly before I held (and smelled) a &lt;a href=&quot;http://www.library.ucla.edu/arts/elmer-belt-library-vinciana&quot;&gt;Leonardo facsimile&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;By that time, I’d already been lucky enough to work on course projects with names like &lt;em&gt;The Garden of Searching for Dreams&lt;/em&gt; and &lt;em&gt;The Cavern of Slanting Moon and Three Stars&lt;/em&gt; which were, at heart, collaborative notebooks designed to help students explore and reflect on literary texts. For those, as well as later Collaborative Sites projects like the &lt;em&gt;Mexican Migration Portfolio&lt;/em&gt; and &lt;em&gt;Literature and Place&lt;/em&gt;, it was my job to build the &lt;em&gt;empty&lt;/em&gt; notebook – at first in &lt;a href=&quot;http://drupal.org&quot;&gt;Drupal&lt;/a&gt; and then later in &lt;a href=&quot;http://www.openatrium.com/#!/&quot;&gt;Open Atrium&lt;/a&gt;. I would put together the features, the foundation, the scaffolding, but ultimately each of those sites, at the point I handed it over, was an empty notebook. And I’d watch, as the semester unfolded, each site fill up with pictures and images and tags and ideas.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;By that time, I’d already been lucky enough to work on course projects with names like &lt;em&gt;The Garden of Searching for Dreams&lt;/em&gt; and &lt;em&gt;The Cavern of Slanting Moon and Three Stars&lt;/em&gt; which were, at heart, collaborative notebooks designed to help students explore and reflect on literary texts. For those, as well as later Collaborative Sites projects like the &lt;em&gt;Mexican Migration Portfolio&lt;/em&gt; and &lt;em&gt;Literature and Place&lt;/em&gt;, it was my job to build the &lt;em&gt;empty&lt;/em&gt; notebook – at first in &lt;a href=&quot;http://drupal.org&quot;&gt;Drupal&lt;/a&gt; and then later in &lt;a href=&quot;http://www.openatrium.com/#!/&quot;&gt;Open Atrium&lt;/a&gt;. I would put together the features, the foundation, the scaffolding, but ultimately each of those sites, at the point I handed it over, was an empty notebook. And I’d watch, as the semester unfolded, each site fill up with pictures and images and tags and ideas.&lt;/p&gt;
 
 &lt;section id=&quot;photos3&quot;&gt;
   &lt;img src=&quot;https://www.evernote.com/l/AN9QgpF8jMJJ5aH-7MTDgY_l-OtSP8WTejUB/image.png&quot; alt=&quot;The Cavern of Slanting Moon and Three Stars&quot; /&gt;
@@ -126,12 +122,16 @@
 
 &lt;p&gt;Most recently, I’ve been working on a &lt;a href=&quot;http://j.mp/my-notebook&quot;&gt;digital research notebook&lt;/a&gt; to help students get started with the research and writing process.&lt;/p&gt;
 
-&lt;p&gt;That’s a lot of empty notebooks. 📓 📕 📗 📘 📔 📒 📚  ….&lt;/p&gt;
+&lt;p&gt;That’s a lot of notebook-making, w/o any writing of notes….&lt;/p&gt;
+
+&lt;center&gt; 📓 📕 📗 📘 📔 📒 📚  &lt;/center&gt;
+
+&lt;p&gt;With this notebook, I’m hoping to both create it, &lt;em&gt;and&lt;/em&gt; write in it. I’ve been really inspired by &lt;a href=&quot;http://notebook.jasonheppler.org/&quot;&gt;Jason Heppler’s Open History Notebook&lt;/a&gt; and other similar projects I’ve run into recently&lt;sup id=&quot;fnref:fn-example-notebooks&quot;&gt;&lt;a href=&quot;#fn:fn-example-notebooks&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. These public note taking sites live out many of the things I aspire to with notebooks: I like the focus on publishing process (and process as scholarship), as well as the way that making the architecture of the notebook is an integral part of the creative act of writing the notes.&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;This is a footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;li id=&quot;fn:fn-example-notebooks&quot;&gt;
+      &lt;p&gt;e.g., &lt;a href=&quot;https://en.wikipedia.org/w/index.php?title=Open_notebook_science&amp;amp;oldid=719360582&quot;&gt;Open Notebook Science&lt;/a&gt;, &lt;a href=&quot;https://electricarchaeology.ca/2015/10/06/an-elegant-open-notebook/&quot;&gt;An Elegant Open Notebook&lt;/a&gt;, and &lt;a href=&quot;http://notebook.lincolnmullen.com/&quot;&gt;Welcome to My Research Notebook&lt;/a&gt;. &lt;a href=&quot;#fnref:fn-example-notebooks&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
