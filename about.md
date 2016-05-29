@@ -6,16 +6,6 @@ permalink: /about/
 
 Mostly, I've been wanting a place to write things down.
 
-This site was created with the amazing [jekyllrb.com](http://jekyllrb.com/)
-
-<div id="blog-archives">
-
-{% capture totals %} {% posts_word_count total %}{% endcapture %}
-{% capture average %} {% posts_word_count average %}{% endcapture %}
-{% capture longest %} {% posts_word_count longest %}{% endcapture %}
-
-I've written <strong>{{ totals | thousands_separated }}</strong> words here since 2008, averaging around <strong>{{ average }}</strong> per post. The longest post is <strong>{{ longest | thousands_separated }}</strong> words.
-
 {% for post in site.posts %}
 {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
 {% capture next_year %}{{ post.next.date | date: '%Y' }}{% endcapture %}
