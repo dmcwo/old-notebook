@@ -194,12 +194,11 @@ Created, designed, and developed: Beat 101 Digital Exhibit for iPad. Powell Rotu
 
 ### Academic Podcast Production
 
-<!-- would be fun to try this with css tiles: http://stackoverflow.com/questions/19903207/css-showing-an-unsorted-list-in-a-tile-like-style -->
-
-<div style="width: 100%; text-align:center; display:block; overflow:auto;">
-<a href="https://itunes.apple.com/us/podcast/personalidades-la-cultura/id147971315?mt=2"><img src="https://www.evernote.com/l/AN8TedIT3IdJ2pdtUvDbSnpyOH-zXja2oVQB/image.jpg" alt="Podcast Cover: Personalidades de la Cultura Hispánica" align="left" style="margin: 1px; max-width: 30%; max-height: 170px; "></a> <a href="http://german.lss.wisc.edu/podcast/Perspektiven"><img src="https://www.evernote.com/l/AN8ufFjkCGNE1IcWcyURua0KZF4ufHhpZc0B/image.jpg" alt="Podcast Cover: Perspektiven" align="left" style="margin: 1px; max-width: 30%; max-height: 170px;" height="170px"></a> <a href="http://german.lss.wisc.edu/podcast/Das_treffende_Wort"><img src="https://www.evernote.com/l/AN8S-pUpq_dIXJOKBOEYsMrbHonyi5k4pYIB/image.jpg" alt="Podcast Cover: Das treffende Wort" align="left" style="margin: 1px; max-width: 30%; max-height: 170px;"></a> <br />
-</div>
- 
+<section id="photos3">
+  <a href="https://itunes.apple.com/us/podcast/personalidades-la-cultura/id147971315?mt=2"><img src="https://www.evernote.com/l/AN8TedIT3IdJ2pdtUvDbSnpyOH-zXja2oVQB/image.jpg" alt="Podcast Cover: Personalidades de la Cultura Hispánica"></a>
+  <a href="http://german.lss.wisc.edu/podcast/Perspektiven"><img src="https://www.evernote.com/l/AN8ufFjkCGNE1IcWcyURua0KZF4ufHhpZc0B/image.jpg" alt="Podcast Cover: Perspektiven"></a>
+	<a href="http://german.lss.wisc.edu/podcast/Das_treffende_Wort"><img src="https://www.evernote.com/l/AN8S-pUpq_dIXJOKBOEYsMrbHonyi5k4pYIB/image.jpg" alt="Podcast Cover: Das treffende Wort"></a>
+</section>
 
 [Personalidades de la Cultura Hispánica](https://itunes.apple.com/us/podcast/personalidades-la-cultura/id147971315?mt=2), UW Madison Department of Spanish and Portuguese. "Listen and learn as prominent voices from Hispanic Culture discuss exciting topics in different fields. From music and film to politics and travel, these podcasts provide entertaining and knowledgeable insight to the Latin American and Spanish world." <!-- there was a news article: Podcasts bring UW students the sounds of Spanish. Capital Times, 5/24/06 -->
 

@@ -1,0 +1,194 @@
+.customstyle {
+	background: #00FFFF;
+	font-size: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+	
+/* ------------- */
+/* the following photo responsive photo tiling stuff comes from  */
+/* https://css-tricks.com/seamless-responsive-photo-grid/ */
+
+#photos3 {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 3;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    3;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           0px;  
+    /* border-style: solid;
+    border-width: 1px; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /*
+    background: #828282; */
+}
+
+#photos3 img {
+  /* Just in case there are inline attributes */
+  width: 96% !important;
+  height: auto !important;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  /*
+  padding: 10px; */
+  background: grey;
+}
+
+#photos4to2 {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 4;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    4;
+  -moz-column-gap:      0px;
+  column-count:         4;
+  column-gap:           0px;  
+}
+
+#photos4to2 img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+
+}
+
+/* This is the responsive part that makes it go from 4 to 2 */
+
+@media (max-width: 1200px) {
+  #photos4to2 {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos4to2 {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 800px) {
+  #photos4to2 {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos4to2 {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+
+
+/* ------------- */
+
+
+/** Caption 3: Fade **/
+#mainwrapper .box .fade-caption, #mainwrapper .box .scale-caption  {
+	opacity: 0;
+	width: 170px;
+	height: 170px;
+	text-align: left;
+	padding: 15px;
+}
+
+/** Fade Caption :hover Behaviour **/
+#mainwrapper .box:hover .fade-caption, #mainwrapper .box:hover .scale-caption  {
+	opacity: 1;
+}
+
+
+#mainwrapper {
+	font: 10pt normal Arial, sans-serif;
+	height: auto;
+	margin: 80px auto 0 auto;
+	text-align: center;
+	width: 660px;
+}
+
+/* Image Box Style */
+#mainwrapper .box {
+	border: 5px solid #fff;
+	cursor: pointer;
+	height: 182px;
+	float: left;
+	margin: 5px;
+	position: relative;
+	overflow: hidden;
+	width: 200px;
+		-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+		-moz-box-shadow: 1px 1px 1px 1px #ccc;
+		box-shadow: 1px 1px 1px 1px #ccc;
+}
+#mainwrapper .box img {
+	position: absolute;
+	left: 0;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+	transition: all 300ms ease-out;
+}
+
+/* Caption Common Style */
+#mainwrapper .box .caption {
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+		transition: all 300ms ease-out;
+	left: 0;
+}
+
+
+
+
+/*
+the following was some stuff to work on presenting ul's as tiles.
+
+ul.tiles {
+	display: block;
+}
+
+ul.tiles li {
+	width: 31%;
+	float: left;
+	margin-top: 20px;
+	margin-right: 1%;
+	margin-bottom: 20px;
+	margin-left: 1%;
+	background: #00FFFF;
+	text-align: center;
+	vertical-align: 50%;
+	list-style: none; 
+	display: block;
+	height: 100%;
+	max-height: 150px;
+	}
+	
+ul.tiles li img {
+	max-height: 150px;
+	max-width: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+	
+*/

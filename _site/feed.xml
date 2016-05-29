@@ -6,9 +6,144 @@
 </description>
     <link>http://dmcwo.github.io/notebook/notebook/</link>
     <atom:link href="http://dmcwo.github.io/notebook/notebook/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 May 2016 21:24:12 -0700</pubDate>
-    <lastBuildDate>Thu, 26 May 2016 21:24:12 -0700</lastBuildDate>
+    <pubDate>Sat, 28 May 2016 19:29:31 -0700</pubDate>
+    <lastBuildDate>Sat, 28 May 2016 19:29:31 -0700</lastBuildDate>
     <generator>Jekyll v3.1.5</generator>
+    
+      <item>
+        <title>Footnotes and markdown</title>
+        <description>&lt;p&gt;I’ve been really inspired by &lt;a href=&quot;http://notebook.jasonheppler.org/&quot;&gt;Jason Heppler’s Open History Notebook&lt;/a&gt; and other similar projects I’ve run into recently&lt;sup id=&quot;fnref:fn-example-notebooks&quot;&gt;&lt;a href=&quot;#fn:fn-example-notebooks&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. These public note taking sites live out many of the things I aspire to with notebooks: I like the focus on publishing the process (and process as scholarship), as well as the way that making the architecture of the notebook is an integral part of the creative act of writing the notes.&lt;/p&gt;
+
+&lt;p&gt;One of the many cool things about the &lt;a href=&quot;http://www.jasonheppler.org/2016/02/09/my-open-history-notebook/&quot;&gt;Open History Notebook&lt;/a&gt; is the use of footnotes with markdown/jekyll. Here’s some experiments w/ getting this set up:&lt;/p&gt;
+
+&lt;h2 id=&quot;basic-footnotes&quot;&gt;Basic footnotes&lt;/h2&gt;
+
+&lt;p&gt;You can add a footnote in markdown with &lt;code class=&quot;highlighter-rouge&quot;&gt;[^fn-title-of-footnote]&lt;/code&gt;, e.g.,:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; As global librarians, we can stop treating the library as a destination and start treating it as a hub.[^fn-wilkinson]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then, at the bottom of the page, add the text that you want to appear as a footnote:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[^fn-wilkinson]: [Skills That Transfer: Transliteracy and the Global Librarian (ACRL/NY 2011 Symposium)](http://www.slideshare.net/lanewilkinson)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;fancier-footnotes-of-course&quot;&gt;Fancier Footnotes? Of course.&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.bigfootjs.com/&quot;&gt;Bigfoot&lt;/a&gt; brings some fanciness to footnotes. To get it going, &lt;a href=&quot;http://www.bigfootjs.com/&quot;&gt;download the javascript files from the bigfoot site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I put the &lt;code class=&quot;highlighter-rouge&quot;&gt;bigfoot-default.css&lt;/code&gt; file in jekyll’s &lt;code class=&quot;highlighter-rouge&quot;&gt;css&lt;/code&gt; folder. I then created a &lt;code class=&quot;highlighter-rouge&quot;&gt;js&lt;/code&gt; folder and put the &lt;code class=&quot;highlighter-rouge&quot;&gt;bigfoot.js&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;bigfoot.min.js&lt;/code&gt; files in it.&lt;/p&gt;
+
+&lt;p&gt;Next, I added the following to &lt;code class=&quot;highlighter-rouge&quot;&gt;head.html&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!-- JS --&amp;gt;
+&amp;lt;!-- bigfoot footnotes from http://www.bigfootjs.com/ --&amp;gt;
+&amp;lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;/notebook/js/bigfoot.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+    $.bigfoot();
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/notebook/css/bigfoot-default.css&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;It works!&lt;/p&gt;
+
+&lt;p&gt;Now, some experimentation:&lt;/p&gt;
+
+&lt;h3 id=&quot;text-footnote&quot;&gt;Text footnote&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;As global librarians, we can stop treating the library as a destination and start treating it as a hub.&lt;sup id=&quot;fnref:fn-wilkinson-text&quot;&gt;&lt;a href=&quot;#fn:fn-wilkinson-text&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;text-footnote-w-link&quot;&gt;Text footnote w/ link&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As global librarians, we can stop treating the library as a destination and start treating it as a hub.&lt;sup id=&quot;fnref:fn-wilkinson-text-link&quot;&gt;&lt;a href=&quot;#fn:fn-wilkinson-text-link&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;image-footnotes-w-links&quot;&gt;Image footnotes w/ links?&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As global librarians, we can stop treating the library as a destination&lt;sup id=&quot;fnref:fn-wilkinson-image-1&quot;&gt;&lt;a href=&quot;#fn:fn-wilkinson-image-1&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; and start treating it as a hub.&lt;sup id=&quot;fnref:fn-wilkinson-image-2&quot;&gt;&lt;a href=&quot;#fn:fn-wilkinson-image-2&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Apologies in advance for the many footnotes to come….&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:fn-example-notebooks&quot;&gt;
+      &lt;p&gt;e.g., &lt;a href=&quot;https://en.wikipedia.org/w/index.php?title=Open_notebook_science&amp;amp;oldid=719360582&quot;&gt;Open Notebook Science&lt;/a&gt;, &lt;a href=&quot;https://electricarchaeology.ca/2015/10/06/an-elegant-open-notebook/&quot;&gt;An Elegant Open Notebook&lt;/a&gt;, and &lt;a href=&quot;http://notebook.lincolnmullen.com/&quot;&gt;Welcome to My Research Notebook&lt;/a&gt;. &lt;a href=&quot;#fnref:fn-example-notebooks&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-wilkinson-text&quot;&gt;
+      &lt;p&gt;Skills That Transfer: Transliteracy and the Global Librarian (ACRL/NY 2011 Symposium)] - http://www.slideshare.net/lanewilkinson &lt;a href=&quot;#fnref:fn-wilkinson-text&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-wilkinson-text-link&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/lanewilkinson&quot;&gt;Skills That Transfer: Transliteracy and the Global Librarian (ACRL/NY 2011 Symposium)&lt;/a&gt; &lt;a href=&quot;#fnref:fn-wilkinson-text-link&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-wilkinson-image-1&quot;&gt;
+      &lt;p&gt;&lt;img src=&quot;https://www.evernote.com/l/AN8xIQlpDWRJ5YTdu-s4Duz2GgcluNYWM6cB/image.png&quot; alt=&quot;Skills That Transfer: Transliteracy and the Global Librarian (ACRL/NY 2011 Symposium&quot; /&gt; &lt;a href=&quot;http://www.slideshare.net/lanewilkinson&quot;&gt;Skills That Transfer: Transliteracy and the Global Librarian (ACRL/NY 2011 Symposium)&lt;/a&gt; &lt;a href=&quot;#fnref:fn-wilkinson-image-1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-wilkinson-image-2&quot;&gt;
+      &lt;p&gt;&lt;img src=&quot;https://www.evernote.com/l/AN-C4CqLTcZPNbNptPEcwWGBMCsWDLz8f_sB/image.png&quot; alt=&quot;Skills That Transfer: Transliteracy and the Global Librarian - ACRL/NY 2011 Symposium&quot; /&gt; &lt;a href=&quot;http://www.slideshare.net/lanewilkinson&quot;&gt;Skills That Transfer: Transliteracy and the Global Librarian (ACRL/NY 2011 Symposium)&lt;/a&gt; &lt;a href=&quot;#fnref:fn-wilkinson-image-2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 28 May 2016 08:12:29 -0700</pubDate>
+        <link>http://dmcwo.github.io/notebook/notebook/jekyll/update/2016/05/28/footnotes-in-markdown.html</link>
+        <guid isPermaLink="true">http://dmcwo.github.io/notebook/notebook/jekyll/update/2016/05/28/footnotes-in-markdown.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Notebooks 📓</title>
+        <description>&lt;blockquote&gt;Just testing something.&lt;/blockquote&gt;
+
+&lt;p&gt;I’ve been thinking, continually, about notebooks. I’ve always wanted to be one of those people with shelves of moleskines, each one full of ideas and dreamwork. I’m not sure when it started. Certainly before I held (and smelled) a &lt;a href=&quot;http://www.library.ucla.edu/arts/elmer-belt-library-vinciana&quot;&gt;Leonardo facsimile&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;By that time, I’d already been lucky enough to work on course projects with names like &lt;em&gt;The Garden of Searching for Dreams&lt;/em&gt; and &lt;em&gt;The Cavern of Slanting Moon and Three Stars&lt;/em&gt; which were, at heart, collaborative notebooks designed to help students explore and reflect on literary texts. For those, as well as later Collaborative Sites projects like the &lt;em&gt;Mexican Migration Portfolio&lt;/em&gt; and &lt;em&gt;Literature and Place&lt;/em&gt;, it was my job to build the &lt;em&gt;empty&lt;/em&gt; notebook – at first in &lt;a href=&quot;http://drupal.org&quot;&gt;Drupal&lt;/a&gt; and then later in &lt;a href=&quot;http://www.openatrium.com/#!/&quot;&gt;Open Atrium&lt;/a&gt;. I would put together the features, the foundation, the scaffolding, but ultimately each of those sites, at the point I handed it over, was an empty notebook. And I’d watch, as the semester unfolded, each site fill up with pictures and images and tags and ideas.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;section id=&quot;photos3&quot;&gt;
+  &lt;img src=&quot;https://www.evernote.com/l/AN9QgpF8jMJJ5aH-7MTDgY_l-OtSP8WTejUB/image.png&quot; alt=&quot;The Cavern of Slanting Moon and Three Stars&quot; /&gt;
+  &lt;img src=&quot;http://blogs.library.ucla.edu/special/files/2011/11/Belt-Vinciana-bookplate-full-web-300x254.jpg&quot; alt=&quot;Leonardo&#39;s Sketches&quot; /&gt;
+  &lt;img src=&quot;https://www.evernote.com/l/AN-9GZYQmhhFcKCY5oxfgxE0oxOSffGkGDsB/image.png&quot; alt=&quot;Literature and Place&quot; /&gt;
+&lt;/section&gt;
+
+&lt;p&gt;And then there was the time I decided to try to build &lt;a href=&quot;https://web.archive.org/web/20080703041339/http://newsobama.org/?&quot;&gt;a lumbrous online news clipping thingamawotzit&lt;/a&gt; that ultimately aggregated a bit too much news. It was a notebook, too; and again, it was a notebook full of other people’s writing and images.&lt;/p&gt;
+
+&lt;p&gt;Most recently, I’ve been working on a &lt;a href=&quot;http://j.mp/my-notebook&quot;&gt;digital research notebook&lt;/a&gt; to help students get started with the research and writing process.&lt;/p&gt;
+
+&lt;p&gt;That’s a lot of empty notebooks. 📓 📕 📗 📘 📔 📒 📚  ….&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;This is a footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 26 May 2016 21:12:29 -0700</pubDate>
+        <link>http://dmcwo.github.io/notebook/notebook/notebooks/2016/05/26/notebooks.html</link>
+        <guid isPermaLink="true">http://dmcwo.github.io/notebook/notebook/notebooks/2016/05/26/notebooks.html</guid>
+        
+        
+        <category>notebooks</category>
+        
+      </item>
     
       <item>
         <title>Jekyll posts and google fonts.</title>
@@ -81,6 +216,14 @@
 &lt;p&gt;Hopefully soon I will get a chance to try this out:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+  
+    &amp;lt;li&amp;gt;
+      &amp;lt;a href=&quot;/jekyll/update/2016/05/28/footnotes-in-markdown.html&quot;&amp;gt;Footnotes and markdown&amp;lt;/a&amp;gt;
+    &amp;lt;/li&amp;gt;
+  
+    &amp;lt;li&amp;gt;
+      &amp;lt;a href=&quot;/notebooks/2016/05/26/notebooks.html&quot;&amp;gt;Notebooks 📓&amp;lt;/a&amp;gt;
+    &amp;lt;/li&amp;gt;
   
     &amp;lt;li&amp;gt;
       &amp;lt;a href=&quot;/jekyll/update/2016/05/21/a-post-about-pages.html&quot;&amp;gt;Jekyll posts and google fonts.&amp;lt;/a&amp;gt;
