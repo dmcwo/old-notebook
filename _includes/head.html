@@ -7,24 +7,34 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 <!-- CSS -->
-
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{   "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   
+  <!-- CSS for fontawesome icons -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+  <!-- CSS for bigfoot footnote styler -->
   <link rel="stylesheet" href="{{ "/css/bigfoot-default.css" | prepend: site.baseurl}}">
   
   <!-- CSS for google fonts -->
   <link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,100,100italic,400italic,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Alegreya:400,400italic,900' rel='stylesheet' type='text/css'>
-  <!-- CSS - adding custom-css file -->
-    <link rel="stylesheet" href="{{ "/css/custom-css.css" | prepend: site.baseurl }}">
+
+
+	<!-- CSS for Poole and Hyde -->
+  	<link rel="stylesheet" href="{{ site.baseurl }}/css/poole.css">
+  	<link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+  	<link rel="stylesheet" href="{{ site.baseurl }}/css/hyde.css">
+  	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  	<!-- CSS - adding custom-css file -->
+  	<link rel="stylesheet" href="{{ "/css/custom-css.css" | prepend: site.baseurl }}">
 
 <!-- JS -->
 <!-- bigfoot footnotes from http://www.bigfootjs.com/ -->
-    
-<script type="text/javascript" src="{{ "/js/jquery-1.8.3.min.js" | prepend: site.baseurl}}"></script>
+<!-- <script type="text/javascript" src="{{ "/js/jquery-1.8.3.min.js" | prepend: site.baseurl}}"></script> using the google one below, rather than a local one, for now -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="{{ "/js/bigfoot.js" | prepend: site.baseurl}}"></script>
 <script type="text/javascript">

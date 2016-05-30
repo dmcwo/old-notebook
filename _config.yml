@@ -15,6 +15,7 @@ url: "http://dmcwo.github.io/notebook" # the base hostname & protocol for your s
 paginate: 5
 twitter_username: dmcwo
 github_username:  dmcwo
+linkedin_username: doug-worsham
 
 # Build settings
 markdown: kramdown
