@@ -158,7 +158,13 @@
 	left: 0;
 }
 
-
+.sidebar {
+       opacity: 0.95;
+}
+   
+.sidebar:hover {
+       opacity: 1.0;
+}
 
 
 /*
