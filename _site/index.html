@@ -196,6 +196,7 @@
       <div class="content container">
         <div class="home">
 
+<!--
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
@@ -241,6 +242,324 @@
       </li>
     
   </ul>
+  -->
+
+<!-- This loops through the paginated posts -->
+
+  <h1><a href="/notebook/jekyll/update/2016/05/28/footnotes-in-markdown.html">Footnotes and markdown</a></h1>
+  <p class="author">
+    <span class="post-meta">May 28, 2016</span>
+  </p>
+  <!--<div class="content">-->
+    <p>Footnotes are good <!-- ty: https://gist.github.com/mikeygee/2626538 -->
+   	
+      <a href="/notebook/jekyll/update/2016/05/28/footnotes-in-markdown.html">read more</a>
+   	
+  <!--</div>-->
+
+  <h1><a href="/notebook/notebooks/2016/05/26/notebooks.html">Notebooks 📓</a></h1>
+  <p class="author">
+    <span class="post-meta">May 26, 2016</span>
+  </p>
+  <!--<div class="content">-->
+    <blockquote>Just testing something.</blockquote>
+
+<p>I’ve been thinking, continually, about notebooks. I’ve always wanted to be one of those people with shelves of moleskines, each one full of ideas and dreamwork. I’m not sure when it started. Certainly before I held (and smelled) a <a href="http://www.library.ucla.edu/arts/elmer-belt-library-vinciana">Leonardo facsimile</a>.</p>
+
+<p>By that time, I’d already been lucky enough to work on course projects with names like <em>The Garden of Searching for Dreams</em> and <em>The Cavern of Slanting Moon and Three Stars</em> which were, at heart, collaborative notebooks designed to help students explore and reflect on literary texts. For those, as well as later Collaborative Sites projects like the <em>Mexican Migration Portfolio</em> and <em>Literature and Place</em>, it was my job to build the <em>empty</em> notebook – at first in <a href="http://drupal.org">Drupal</a> and then later in <a href="http://www.openatrium.com/#!/">Open Atrium</a>. I would put together the features, the foundation, the scaffolding, but ultimately each of those sites, at the point I handed it over, was an empty notebook. And I’d watch, as the semester unfolded, each site fill up with pictures and images and tags and ideas.</p>
+
+<section id="photos3">
+  <img src="https://www.evernote.com/l/AN9QgpF8jMJJ5aH-7MTDgY_l-OtSP8WTejUB/image.png" alt="The Cavern of Slanting Moon and Three Stars" />
+  <img src="http://blogs.library.ucla.edu/special/files/2011/11/Belt-Vinciana-bookplate-full-web-300x254.jpg" alt="Leonardo's Sketches" />
+  <img src="https://www.evernote.com/l/AN-9GZYQmhhFcKCY5oxfgxE0oxOSffGkGDsB/image.png" alt="Literature and Place" />
+</section>
+
+<p>And then there was the time I decided to try to build <a href="https://web.archive.org/web/20080703041339/http://newsobama.org/?">a lumbrous online news clipping thingamawotzit</a> that ultimately aggregated a bit too much news. It was a notebook, too; and again, it was a notebook full of other people’s writing and images.</p>
+
+<p>Most recently, I’ve been working on a <a href="http://j.mp/my-notebook">digital research notebook</a> to help students get started with the research and writing process.</p>
+
+<p>That’s a lot of notebook-making, w/o any writing of notes….</p>
+
+<center> 📓 📕 📗 📘 📔 📒 📚  </center>
+
+<p>With this notebook, I’m hoping to both create it, <em>and</em> write in it. I’ve been really inspired by <a href="http://notebook.jasonheppler.org/">Jason Heppler’s Open History Notebook</a> and other similar projects I’ve run into recently<sup id="fnref:fn-example-notebooks"><a href="#fn:fn-example-notebooks" class="footnote">1</a></sup>. These public note taking sites live out many of the things I aspire to with notebooks: I like the focus on publishing process (and process as scholarship), as well as the way that making the architecture of the notebook is an integral part of the creative act of writing the notes.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn-example-notebooks">
+      <p>e.g., <a href="https://en.wikipedia.org/w/index.php?title=Open_notebook_science&amp;oldid=719360582">Open Notebook Science</a>, <a href="https://electricarchaeology.ca/2015/10/06/an-elegant-open-notebook/">An Elegant Open Notebook</a>, and <a href="http://notebook.lincolnmullen.com/">Welcome to My Research Notebook</a>. <a href="#fnref:fn-example-notebooks" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+ <!-- ty: https://gist.github.com/mikeygee/2626538 -->
+   	
+  <!--</div>-->
+
+  <h1><a href="/notebook/jekyll/update/2016/05/21/a-post-about-pages.html">Jekyll posts and google fonts.</a></h1>
+  <p class="author">
+    <span class="post-meta">May 21, 2016</span>
+  </p>
+  <!--<div class="content">-->
+    <p>Today created my first <a href="https://jekyllrb.com/docs/pages/">Jekyll pages</a> and also learned a bit about using google fonts w/ jekyll. Here’s how you do it:</p>
+
+<p>First, head over to <a href="https://www.google.com/fonts">https://www.google.com/fonts</a> and find your favorite font(s). You can add a bunch of fonts to a “collection” or just choose one and click the “quick use” icon. That’s what I did with a font called <a href="https://www.google.com/fonts/specimen/Arvo">Arvo</a>, just to test out the process. Here’s the code generated by quick use:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css'&gt;
+</code></pre>
+</div>
+
+<p>To add it to jekyll, paste this code into the <code class="highlighter-rouge">head.html</code> file in the <code class="highlighter-rouge">includes</code> folder.</p>
+
+<p>Next, edit your <code class="highlighter-rouge">main.scss</code> to start using the font on your site. Just as an example, this would set Arvo as the base font for the site:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$base-font-family: 'Arvo', "Helvetica Neue", Helvetica, Arial, sans-serif;
+</code></pre>
+</div>
+
+<p>Fun!</p>
+
+<p>Next up, maybe something like <a href="http://jdp.org.uk/jekyll/2015/06/01/next-and-previous-posts-in-jekyll.html">next and previous buttons</a></p>
+
+<p>And also, maybe I’ll work on creating a zotero citation export format to markdown, so that Zotero can export something like this:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>* [Writing, Searching, Thinking, Learning: Cross-Training Peer Research and Writing Tutors to Maximize Student Success](http://www.loexconference.org/sessions.html). Presented at the LOEX Annual Conference in Grand Rapids, MI on May 10, 2014.
+</code></pre>
+</div>
+
+<p>which will then display like this:</p>
+
+<ul>
+  <li><a href="http://www.loexconference.org/sessions.html">Writing, Searching, Thinking, Learning: Cross-Training Peer Research and Writing Tutors to Maximize Student Success</a>. Presented at the LOEX Annual Conference in Grand Rapids, MI on May 10, 2014.</li>
+</ul>
+
+<p>More things to learn</p>
+
+<ul>
+  <li>
+    <p><a href="http://www.w3schools.com/howto/howto_js_accordion.asp">Accordians</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.w3schools.com/bootstrap/default.asp">Bootstrap</a></p>
+  </li>
+</ul>
+ <!-- ty: https://gist.github.com/mikeygee/2626538 -->
+   	
+  <!--</div>-->
+
+  <h1><a href="/notebook/jekyll/update/2016/05/20/text-is-the-best.html">Text is the best.</a></h1>
+  <p class="author">
+    <span class="post-meta">May 20, 2016</span>
+  </p>
+  <!--<div class="content">-->
+    <p>I’m suddenly a huge fan of text files. Blogging w/ just text files – why is that so cool? For some reason, it really is. I first got started playing around with <a href="jekyllrb.com">jekyll</a> and then learned about <a href="http://howto.p2pu.org/">course-in-a-box</a> both of which made me think that static is the new dynamic, for real.</p>
+
+<p>Not that it is all text. I just learned that if you type this:</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">![</span><span class="nv">Straws in a window</span><span class="p">](</span><span class="sx">http://dmcwo.github.io/notebook/files/IMG_1847.jpg</span><span class="p">)</span></code></pre></figure>
+
+<p>You can make this happen:</p>
+
+<p><img src="http://dmcwo.github.io/notebook/files/IMG_1847.jpg" alt="Straws in a window" /></p>
+
+<p>Hopefully soon I will get a chance to try this out:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;ul&gt;
+  
+    &lt;li&gt;
+      &lt;a href="/jekyll/update/2016/05/28/footnotes-in-markdown.html"&gt;Footnotes and markdown&lt;/a&gt;
+    &lt;/li&gt;
+  
+    &lt;li&gt;
+      &lt;a href="/notebooks/2016/05/26/notebooks.html"&gt;Notebooks 📓&lt;/a&gt;
+    &lt;/li&gt;
+  
+    &lt;li&gt;
+      &lt;a href="/jekyll/update/2016/05/21/a-post-about-pages.html"&gt;Jekyll posts and google fonts.&lt;/a&gt;
+    &lt;/li&gt;
+  
+    &lt;li&gt;
+      &lt;a href="/jekyll/update/2016/05/20/text-is-the-best.html"&gt;Text is the best.&lt;/a&gt;
+    &lt;/li&gt;
+  
+    &lt;li&gt;
+      &lt;a href="/2012/02/07/example-content.html"&gt;Example content&lt;/a&gt;
+    &lt;/li&gt;
+  
+&lt;/ul&gt;
+</code></pre>
+</div>
+
+<p>What’s next after that? Maybe more text?</p>
+
+<ul>
+  <li><a href="https://www.codecademy.com/learn/learn-git">Git</a></li>
+  <li><a href="http://www.w3schools.com/xml/default.asp">xml</a></li>
+  <li><a href="http://www.markdowntutorial.com/">markdown</a> &amp; <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">more markdown</a></li>
+</ul>
+
+<p>and then, maybe, this, too:</p>
+
+<ul>
+  <li><a href="https://www.coursera.org/specializations/social-science">Social Science Specialization</a></li>
+</ul>
+
+ <!-- ty: https://gist.github.com/mikeygee/2626538 -->
+   	
+  <!--</div>-->
+
+  <h1><a href="/notebook/2012/02/07/example-content.html">Example content</a></h1>
+  <p class="author">
+    <span class="post-meta">Feb 7, 2012</span>
+  </p>
+  <!--<div class="content">-->
+    <div class="message">
+  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+</div>
+
+<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+
+<blockquote>
+  <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+</blockquote>
+
+<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+
+<h2 id="inline-html-elements">Inline HTML elements</h2>
+
+<p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+
+<ul>
+  <li><strong>To bold text</strong>, use <code class="highlighter-rouge">&lt;strong&gt;</code>.</li>
+  <li><em>To italicize text</em>, use <code class="highlighter-rouge">&lt;em&gt;</code>.</li>
+  <li>Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use <code class="highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code class="highlighter-rouge">title</code> attribute for the full phrase.</li>
+  <li>Citations, like <cite>— Mark otto</cite>, should use <code class="highlighter-rouge">&lt;cite&gt;</code>.</li>
+  <li><del>Deleted</del> text should use <code class="highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="highlighter-rouge">&lt;ins&gt;</code>.</li>
+  <li>Superscript <sup>text</sup> uses <code class="highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="highlighter-rouge">&lt;sub&gt;</code>.</li>
+</ul>
+
+<p>Most of these elements are styled by browsers with few modifications on our part.</p>
+
+<h2 id="heading">Heading</h2>
+
+<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+
+<h3 id="code">Code</h3>
+
+<p>Cum sociis natoque penatibus et magnis dis <code class="highlighter-rouge">code element</code> montes, nascetur ridiculus mus.</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// Example can be run directly in your JavaScript console
+</span>
+
+<span class="c1">// Create a function that takes two arguments and returns the sum of those arguments
+</span>
+<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="s2">"a"</span><span class="p">,</span> <span class="s2">"b"</span><span class="p">,</span> <span class="s2">"return a + b"</span><span class="p">);</span>
+
+<span class="c1">// Call the function
+</span>
+<span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
+<span class="c1">// &gt; 8</span></code></pre></figure>
+
+<p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+
+<h3 id="lists">Lists</h3>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
+<ul>
+  <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+  <li>Donec id elit non mi porta gravida at eget metus.</li>
+  <li>Nulla vitae elit libero, a pharetra augue.</li>
+</ul>
+
+<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+
+<ol>
+  <li>Vestibulum id ligula porta felis euismod semper.</li>
+  <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+  <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+</ol>
+
+<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+
+<dl>
+  <dt>HyperText Markup Language (HTML)</dt>
+  <dd>The language used to describe and define the content of a Web page</dd>
+
+  <dt>Cascading Style Sheets (CSS)</dt>
+  <dd>Used to describe the appearance of Web content</dd>
+
+  <dt>JavaScript (JS)</dt>
+  <dd>The programming language used to build advanced Web sites and applications</dd>
+</dl>
+
+<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+
+<h3 id="images">Images</h3>
+
+<p>Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.</p>
+
+<p><img src="http://placehold.it/800x400" alt="placeholder" title="Large example image" />
+<img src="http://placehold.it/400x200" alt="placeholder" title="Medium example image" />
+<img src="http://placehold.it/200x200" alt="placeholder" title="Small example image" /></p>
+
+<h3 id="tables">Tables</h3>
+
+<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Upvotes</th>
+      <th>Downvotes</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>Totals</td>
+      <td>21</td>
+      <td>23</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>Alice</td>
+      <td>10</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>4</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td>7</td>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+
+<hr />
+
+<p>Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a></p>
+ <!-- ty: https://gist.github.com/mikeygee/2626538 -->
+   	
+  <!--</div>-->
+
+
+<!-- Pagination links -->
+<div class="pagination">
+  
+    <span class="previous">Previous</span>
+  
+  <span class="page_number ">Page: 1 of 1</span>
+  
+    <span class="next ">Next</span>
+  
+</div>
 
   <p class="rss-subscribe">subscribe <a href="/notebook/feed.xml">via RSS</a></p>
 

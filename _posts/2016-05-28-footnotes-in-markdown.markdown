@@ -5,7 +5,7 @@ date:   2016-05-28 8:12:29 -0700
 categories: jekyll update
 ---
 
-Footnotes are good:
+Footnotes are good<!--break-->:
 
 ## Basic footnotes
 

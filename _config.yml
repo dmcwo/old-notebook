@@ -17,5 +17,8 @@ twitter_username: dmcwo
 github_username:  dmcwo
 linkedin_username: doug-worsham
 
+# gems
+gems: [jekyll-paginate]
+
 # Build settings
 markdown: kramdown
