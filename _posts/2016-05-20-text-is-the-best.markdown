@@ -4,7 +4,7 @@ title:  "Text is the best."
 date:   2016-05-20 21:12:29 -0700
 categories: jekyll update
 ---
-I'm suddenly a huge fan of text files. Blogging w/ just text files -- why is that so cool? For some reason, it really is. I first got started playing around with [jekyll](jekyllrb.com) and then learned about [course-in-a-box](http://howto.p2pu.org/) both of which made me think that static is the new dynamic, for real.
+I'm suddenly a huge fan of text files. <!--break--> Blogging w/ just text files -- why is that so cool? For some reason, it really is. I first got started playing around with [jekyll](jekyllrb.com) and then learned about [course-in-a-box](http://howto.p2pu.org/) both of which made me think that static is the new dynamic, for real.
 
 Not that it is all text. I just learned that if you type this:
 
@@ -15,18 +15,6 @@ Not that it is all text. I just learned that if you type this:
 You can make this happen:
 
 ![Straws in a window]({{ site.url }}/files/IMG_1847.jpg)
-
-Hopefully soon I will get a chance to try this out:
-
-```
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-```
 
 What's next after that? Maybe more text?
 

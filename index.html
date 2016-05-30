@@ -29,7 +29,9 @@ layout: default
   <!--<div class="content">-->
     {{ post.content | split:'<!--break-->' | first }} <!-- ty: https://gist.github.com/mikeygee/2626538 -->
    	{% if post.content contains '<!--break-->' %}
-      <a href="{{ post.url | prepend: site.baseurl }}">read more</a>
+      <span class="post-meta">
+      	<a href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-chevron-circle-right" title="Read more" aria-hidden="true"></i></a>
+   		</span>
    	{% endif %}
   <!--</div>-->
 {% endfor %}
