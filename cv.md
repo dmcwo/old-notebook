@@ -18,11 +18,6 @@ permalink: /cv/
 * Project Leadership Communication. University of Wisconsin Madison Executive Education. Madison, WI. 2009.
 * Learning Technology Leadership Program. EDUCAUSE. Madison, WI. 2008.
 
-### Informal Learning
-
-* Learning How to Learn: Powerful mental tools to help you master tough subjects by University of California, San Diego on Coursera. Certificate earned on January 31, 2016.
-
-
 ## Professional Experience
 
 ### UCLA Library
@@ -209,3 +204,11 @@ Created, designed, and developed: Beat 101 Digital Exhibit for iPad. Powell Rotu
 [Das treffende Wort](http://german.lss.wisc.edu/podcast/Das_treffende_Wort) "Join Käthe and Manfred for informal lessons on the German language and culture! This show is geared for intermediate learners of German." <!-- News feature on apple site from internet archive: https://web.archive.org/web/20080305110420/http://www.apple.com/education/profiles/wisconsin-madison/ -->
 
 [Neerlandia-journaal](http://german.lss.wisc.edu/podcast/Neerlandia_Journaal) "Learn Dutch vocabulary, grammar, and culture through a newscast about the Netherlands!"
+
+### Selected MOOCs, Micro-credentials, and Other Learning Experiences
+
+#### MOOCS
+* Learning How to Learn: Powerful mental tools to help you master tough subjects by University of California, San Diego on Coursera. Certificate earned on January 31, 2016.
+
+#### [Codecademy](https://www.codecademy.com/dmcwo#completed)
+*  [Deploy a Website](https://www.codecademy.com/learn/deploy-a-website) using Jekyll and Github pages. May 31, 2016.
