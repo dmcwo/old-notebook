@@ -4,10 +4,10 @@
     <title>notebook</title>
     <description>a place to jot things down.
 </description>
-    <link>http://dmcwo.github.io/notebook/notebook/</link>
-    <atom:link href="http://dmcwo.github.io/notebook/notebook/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 May 2016 08:48:09 -0700</pubDate>
-    <lastBuildDate>Mon, 30 May 2016 08:48:09 -0700</lastBuildDate>
+    <link>dmcwo.github.io/notebook/</link>
+    <atom:link href="dmcwo.github.io/notebook/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 31 May 2016 10:33:38 -0700</pubDate>
+    <lastBuildDate>Tue, 31 May 2016 10:33:38 -0700</lastBuildDate>
     <generator>Jekyll v3.1.5</generator>
     
       <item>
@@ -40,7 +40,7 @@ and start treating it as a hub.[^fn-wilkinson]
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!-- JS --&amp;gt;
 &amp;lt;!-- bigfoot footnotes from http://www.bigfootjs.com/ --&amp;gt;
 &amp;lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
-&amp;lt;script type=&quot;text/javascript&quot; src=&quot;/notebook/js/bigfoot.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; src=&quot;/js/bigfoot.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
 &amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
     $.bigfoot();
 &amp;lt;/script&amp;gt;
@@ -49,7 +49,7 @@ and start treating it as a hub.[^fn-wilkinson]
 
 &lt;p&gt;and&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/notebook/css/bigfoot-default.css&quot;&amp;gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/css/bigfoot-default.css&quot;&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -94,8 +94,8 @@ and start treating it as a hub.[^fn-wilkinson]
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 28 May 2016 08:12:29 -0700</pubDate>
-        <link>http://dmcwo.github.io/notebook/notebook/jekyll/update/2016/05/28/footnotes-in-markdown.html</link>
-        <guid isPermaLink="true">http://dmcwo.github.io/notebook/notebook/jekyll/update/2016/05/28/footnotes-in-markdown.html</guid>
+        <link>dmcwo.github.io/notebook/jekyll/update/2016/05/28/footnotes-in-markdown.html</link>
+        <guid isPermaLink="true">dmcwo.github.io/notebook/jekyll/update/2016/05/28/footnotes-in-markdown.html</guid>
         
         
         <category>jekyll</category>
@@ -135,8 +135,8 @@ and start treating it as a hub.[^fn-wilkinson]
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 26 May 2016 21:12:29 -0700</pubDate>
-        <link>http://dmcwo.github.io/notebook/notebook/notebooks/2016/05/26/notebooks.html</link>
-        <guid isPermaLink="true">http://dmcwo.github.io/notebook/notebook/notebooks/2016/05/26/notebooks.html</guid>
+        <link>dmcwo.github.io/notebook/notebooks/2016/05/26/notebooks.html</link>
+        <guid isPermaLink="true">dmcwo.github.io/notebook/notebooks/2016/05/26/notebooks.html</guid>
         
         
         <category>notebooks</category>
@@ -189,8 +189,8 @@ and start treating it as a hub.[^fn-wilkinson]
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 21 May 2016 09:20:29 -0700</pubDate>
-        <link>http://dmcwo.github.io/notebook/notebook/jekyll/update/2016/05/21/a-post-about-pages.html</link>
-        <guid isPermaLink="true">http://dmcwo.github.io/notebook/notebook/jekyll/update/2016/05/21/a-post-about-pages.html</guid>
+        <link>dmcwo.github.io/notebook/jekyll/update/2016/05/21/a-post-about-pages.html</link>
+        <guid isPermaLink="true">dmcwo.github.io/notebook/jekyll/update/2016/05/21/a-post-about-pages.html</guid>
         
         
         <category>jekyll</category>
@@ -205,11 +205,11 @@ and start treating it as a hub.[^fn-wilkinson]
 
 &lt;p&gt;Not that it is all text. I just learned that if you type this:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Straws in a window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;http://dmcwo.github.io/notebook/files/IMG_1847.jpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Straws in a window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;dmcwo.github.io/notebook/files/IMG_1847.jpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;You can make this happen:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://dmcwo.github.io/notebook/files/IMG_1847.jpg&quot; alt=&quot;Straws in a window&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;dmcwo.github.io/notebook/files/IMG_1847.jpg&quot; alt=&quot;Straws in a window&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;What’s next after that? Maybe more text?&lt;/p&gt;
 
@@ -228,8 +228,8 @@ and start treating it as a hub.[^fn-wilkinson]
 
 </description>
         <pubDate>Fri, 20 May 2016 21:12:29 -0700</pubDate>
-        <link>http://dmcwo.github.io/notebook/notebook/jekyll/update/2016/05/20/text-is-the-best.html</link>
-        <guid isPermaLink="true">http://dmcwo.github.io/notebook/notebook/jekyll/update/2016/05/20/text-is-the-best.html</guid>
+        <link>dmcwo.github.io/notebook/jekyll/update/2016/05/20/text-is-the-best.html</link>
+        <guid isPermaLink="true">dmcwo.github.io/notebook/jekyll/update/2016/05/20/text-is-the-best.html</guid>
         
         
         <category>jekyll</category>
@@ -376,8 +376,8 @@ and start treating it as a hub.[^fn-wilkinson]
 &lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Feb 2012 00:00:00 -0800</pubDate>
-        <link>http://dmcwo.github.io/notebook/notebook/2012/02/07/example-content.html</link>
-        <guid isPermaLink="true">http://dmcwo.github.io/notebook/notebook/2012/02/07/example-content.html</guid>
+        <link>dmcwo.github.io/notebook/2012/02/07/example-content.html</link>
+        <guid isPermaLink="true">dmcwo.github.io/notebook/2012/02/07/example-content.html</guid>
         
         
       </item>
