@@ -2,7 +2,15 @@
 
 #### style pagination
 
+#### favicon
+
+### CV
+
+#### turn cv into sub-directory with its own images
+
 #### figure out if I want to hide cv from navigation
+
+#### an entirely image-based cv?
 
 #### think about integrating things as submodules
 https://github.com/blog/2104-working-with-submodules
@@ -13,8 +21,21 @@ https://github.com/blog/2104-working-with-submodules
 
 #### improve social icons
 
-#### fix about page
+#### turn off loquella?
 
+#### domain - codeacademy
+
+#### style footnotes somewhat differently
+
+they are a bit too predominant. just one dot? a ^ or similar?
+
+#### should the prev/next links appear at top, too?
+
+#### google analytics?
+
+#### categories? tags?
+
+#### zotero exporting / markdown bibliography formats
 
 
 #### reduce file size of bg img
@@ -81,3 +102,6 @@ in ```_layouts/post.html```
 </div>
 
 ```
+
+#### fix about page
+done! it needed ```prepend site.baseurl``` in the links

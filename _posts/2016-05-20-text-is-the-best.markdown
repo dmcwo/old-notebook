@@ -22,7 +22,8 @@ What's next after that? Maybe more text?
 * [xml](http://www.w3schools.com/xml/default.asp)
 * [markdown](http://www.markdowntutorial.com/) & [more markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-and then, maybe, this, too:
+and then, maybe, these, too:
 
 * [Social Science Specialization](https://www.coursera.org/specializations/social-science)
+* [Date Mining Specialization](https://www.coursera.org/specializations/data-mining)
 
