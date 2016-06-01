@@ -212,3 +212,4 @@ Created, designed, and developed: Beat 101 Digital Exhibit for iPad. Powell Rotu
 
 #### [Codecademy](https://www.codecademy.com/dmcwo#completed)
 *  [Deploy a Website](https://www.codecademy.com/learn/deploy-a-website) using Jekyll and Github pages. May 31, 2016.
+* [Learn Git](https://www.codecademy.com/learn/learn-git). June 1, 2016.
