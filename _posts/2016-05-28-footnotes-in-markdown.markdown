@@ -9,11 +9,10 @@ Footnotes are good<!--break-->:
 
 ## Basic footnotes
 
-You can add a footnote in markdown with ``` [^fn-title-of-footnote] ```, e.g.,:
+I just learned you can add a footnote in markdown with ``` [^fn-title-of-footnote] ```, e.g.,:
 
 ```
-As global librarians, we can stop treating the library as a destination
-and start treating it as a hub.[^fn-wilkinson]
+As global librarians, we can stop treating the library as a destination and start treating it as a hub.[^fn-wilkinson]
 ```
 
 Then, at the bottom of the page, add the name of the footnote again, followed by ```:``` and then text that you want to appear as a footnote:
