@@ -1,7 +1,9 @@
 # Learning Git
 
 ## Intro
-https://www.codecademy.com/en/courses/learn-git
+Recommend - https://www.codecademy.com/en/courses/learn-git
+
+Learn / Do approach
 
 ```git init``` "init" = initialize - this command sets up git in a directory to  track changes
 
@@ -66,8 +68,32 @@ https://www.codecademy.com/en/courses/learn-git
 * ```git merge branch_name```: Used to join file changes from one branch to another.
 * ```git branch -d branch_name```: Deletes the branch specified.
 
+## Collaboration
 
+```git clone remote_location clone_name``` - clones a repository - but what does this mean? Any relationship maintained to original? — gives the repository you clone the name "origin" when working on that repository.
 
+```git remove -v``` gives you a list of a projects "remotes" (related repositories?)
 
+```git fetch``` - checks for changes to the remote repository. Doesn't merge changes, but creates a "remote branch" with those changes for review. Doesn't give any feedback, just does it! also - doesn't seem to require that a remote be specified - maybe there can only be 1 per repository?
 
+### Typical Workflow
+
+The workflow for Git collaborations typically follows this order:
+
+1. Fetch and merge changes from the remote
+2. Create a branch to work on a new project feature
+3. Develop the feature on your branch and commit your work
+4. Fetch and merge from the remote again (in case new commits were made while you were working)
+5. Push your branch up to the remote for review
+
+The command:
+
+```
+git push origin your_branch_name
+```
+will push your branch up to the remote, origin.  The syntax here seems to be ```push``` the changes I have made to the ```origin``` from ```your_branch_name```
+
+—
+
+https://help.github.com/articles/fetching-a-remote/
 
