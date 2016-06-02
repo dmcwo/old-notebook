@@ -4,4 +4,6 @@ coding your presentations
 
 1. Cloned it to make a local copy
 2. Created a branch of jekyll directory to experiment w/ incorporating presentations
-3. 
+3. Created a ```presentations``` directory
+4. Copied ```reveal.js``` files into ```presentations```
+5. 
