@@ -1,5 +1,11 @@
 # notebook building notes
 
+#### Look at the numbers in this guide. A section on guides?
+http://jmcglone.com/guides/github-pages/
+
+#### Stats
+a google analytics include: https://github.com/jmcglone/jmcglone.github.io/blob/master/_includes/analytics.html
+
 #### style pagination
 
 #### favicon
@@ -12,7 +18,9 @@
 
 #### an entirely image-based cv?
 
-#### think about integrating things as submodules
+#### organize branches - dev branch, master branch, gh-pages branch, submodules, 
+....
+##### think about integrating things as submodules
 https://github.com/blog/2104-working-with-submodules
 
 #### host font awesome locally?
@@ -33,10 +41,19 @@ they are a bit too predominant. just one dot? a ^ or similar?
 
 #### google analytics?
 
+create an ```_include	``` file to insert analytics -- like this: https://github.com/jmcglone/jmcglone.github.io/blob/master/_includes/analytics.html
+
 #### categories? tags?
 
 #### zotero exporting / markdown bibliography formats
 
+#### Do i need a sitemap? https://help.github.com/articles/sitemaps-for-github-pages/
+
+
+
+# Done
+
+#### added a ```gitignore``` file as learned : http://jmcglone.com/guides/github-pages/
 
 #### reduce file size of bg img
 cropped and compressed to 164KB (from 2MB)
