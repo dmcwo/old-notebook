@@ -8,9 +8,11 @@ I'm suddenly a huge fan of text files. <!--break--> Blogging w/ just text files 
 
 Not that it is all text. I just learned that if you type this:
 
+```
 {% highlight markdown %}
 ![Straws in a window]({{ site.url }}/files/IMG_1847.jpg)
 {% endhighlight %}
+```
 
 You can make this happen:
 

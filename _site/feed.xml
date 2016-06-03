@@ -6,8 +6,8 @@
 </description>
     <link>http://dmcwo.com/</link>
     <atom:link href="http://dmcwo.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Jun 2016 21:56:02 -0700</pubDate>
-    <lastBuildDate>Thu, 02 Jun 2016 21:56:02 -0700</lastBuildDate>
+    <pubDate>Thu, 02 Jun 2016 21:59:52 -0700</pubDate>
+    <lastBuildDate>Thu, 02 Jun 2016 21:59:52 -0700</lastBuildDate>
     <generator>Jekyll v3.1.5</generator>
     
       <item>
@@ -28,7 +28,7 @@
   &lt;li&gt;Realized I don’t know enough about how to do that yet, so decided to start by just manually linking to presentations from current &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; works well enough ….&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;Here’s what it looks like so far&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://dmcwo.com/presentations&quot;&gt;Here’s what it looks like so far&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
@@ -248,7 +248,11 @@
 
 &lt;p&gt;Not that it is all text. I just learned that if you type this:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Straws in a window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;http://dmcwo.com/files/IMG_1847.jpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&amp;lt;figure class=&quot;highlight&quot;&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&amp;gt;&amp;lt;span class=&quot;p&quot;&amp;gt;![&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;nv&quot;&amp;gt;Straws in a window&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;p&quot;&amp;gt;](&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;sx&quot;&amp;gt;http://dmcwo.com/files/IMG_1847.jpg&amp;lt;/span&amp;gt;&amp;lt;span class=&quot;p&quot;&amp;gt;)&amp;lt;/span&amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/figure&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;You can make this happen:&lt;/p&gt;
 
