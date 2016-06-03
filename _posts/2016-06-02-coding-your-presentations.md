@@ -19,7 +19,7 @@ I did a little tinkering and looking around and decided to start by trying out [
 7. Realized I don't know enough about how to do that yet, so decided to start by just manually linking to presentations from current ```index.html``` works well enough ….
 
 
-[Here's what it looks like so far]({{ site.url }}/presentations)
+[Here's what it looks like so far]({{ site.url }}/presentations/)
 
 
 [^fn-why]: It is similar, I think, to the [reasoning](http://jmcglone.com/notes/2014/05/03/using-github-to-create-and-host-a-personal-website) behind making a switch from WordPress to [Jekyll](http://jekyllrb.com) — it seems nice to switch to simpler tools, and keep content in simple, and hopefully more enduring formats.
