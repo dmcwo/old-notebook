@@ -188,7 +188,7 @@
 }
 
 /*
-the following was some stuff to work on presenting ul's as tiles.
+the following was some stuff to work on presenting ul's as tiles. */
 
 ul.tiles {
 	display: block;
@@ -217,5 +217,5 @@ ul.tiles li img {
 	margin-bottom: 10px;
 	}
 	
-*/
+
 
