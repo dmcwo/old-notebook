@@ -6,13 +6,13 @@
 </description>
     <link>http://dmcwo.com/</link>
     <atom:link href="http://dmcwo.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Jun 2016 21:52:45 -0700</pubDate>
-    <lastBuildDate>Thu, 02 Jun 2016 21:52:45 -0700</lastBuildDate>
+    <pubDate>Thu, 02 Jun 2016 21:56:02 -0700</pubDate>
+    <lastBuildDate>Thu, 02 Jun 2016 21:56:02 -0700</lastBuildDate>
     <generator>Jekyll v3.1.5</generator>
     
       <item>
         <title>Coding your presentations</title>
-        <description>&lt;p&gt;I recently ran across a set of slides with a clean, responsive design that looked great online. I took a look at the source, and it seemed like they were written with &lt;a href=&quot;https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations&quot;&gt;R&lt;/a&gt;. Presentations in Markdown? Wow. Text really is the best.&amp;lt;!—break—&amp;gt;&lt;/p&gt;
+        <description>&lt;p&gt;I recently ran across a set of slides with a clean, responsive design that looked great online. I took a look at the source, and it seemed like they were written with &lt;a href=&quot;https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations&quot;&gt;R&lt;/a&gt;. Presentations in Markdown? Wow. Text really is the best.&lt;!--break--&gt;&lt;/p&gt;
 
 &lt;p&gt;I started to think about preparing presentations, and perhaps &lt;a href=&quot;https://www.youtube.com/playlist?list=PLV8eqWoGXke5D5bmwscUhow1RJKWZmMRZ&quot;&gt;instructional tutorials&lt;/a&gt; in text, using markdown — i.e., &lt;code class=&quot;highlighter-rouge&quot;&gt;coding&lt;/code&gt; my presentations. Why? &lt;sup id=&quot;fnref:fn-why&quot;&gt;&lt;a href=&quot;#fn:fn-why&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
