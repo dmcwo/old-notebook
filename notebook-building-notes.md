@@ -36,11 +36,15 @@ they are a bit too predominant. just one dot? a ^ or similar?
 create an ```_include	``` file to insert analytics -- like this: https://github.com/jmcglone/jmcglone.github.io/blob/master/_includes/analytics.html
 
 #### categories? tags?
+https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/
+http://jekyllthemes.org/
 
 #### zotero exporting / markdown bibliography formats
 
 #### Do i need a sitemap? https://help.github.com/articles/sitemaps-for-github-pages/
 
+#### new theme / better setup?
+https://github.com/TaylanTatli/Moon/
 
 
 # Done

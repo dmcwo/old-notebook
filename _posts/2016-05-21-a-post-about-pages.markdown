@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll posts and google fonts."
 date:   2016-05-21 09:20:29 -0700
-categories: jekyll update
+tags: [jekyll, google fonts]
 ---
 Today created my first [Jekyll pages](https://jekyllrb.com/docs/pages/) and also learned a bit about using google fonts w/ jekyll. Here's how you do it:<!--break-->
 

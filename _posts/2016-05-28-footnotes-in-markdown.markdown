@@ -2,7 +2,7 @@
 layout: post
 title:  "Footnotes and markdown"
 date:   2016-05-28 8:12:29 -0700
-categories: jekyll update
+tags: [tinkering, footnotes]
 ---
 
 Footnotes are good<!--break-->:

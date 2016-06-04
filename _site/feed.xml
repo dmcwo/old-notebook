@@ -6,8 +6,8 @@
 </description>
     <link>http://dmcwo.com/</link>
     <atom:link href="http://dmcwo.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Jun 2016 22:35:12 -0700</pubDate>
-    <lastBuildDate>Fri, 03 Jun 2016 22:35:12 -0700</lastBuildDate>
+    <pubDate>Fri, 03 Jun 2016 22:42:00 -0700</pubDate>
+    <lastBuildDate>Fri, 03 Jun 2016 22:42:00 -0700</lastBuildDate>
     <generator>Jekyll v3.1.5</generator>
     
       <item>
@@ -150,13 +150,13 @@ Visit &lt;a href=&quot;http://dmcwo.github.io/tutorials/tutorial-a-generic-tutor
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 28 May 2016 08:12:29 -0700</pubDate>
-        <link>http://dmcwo.com/jekyll/update/2016/05/28/footnotes-in-markdown.html</link>
-        <guid isPermaLink="true">http://dmcwo.com/jekyll/update/2016/05/28/footnotes-in-markdown.html</guid>
+        <link>http://dmcwo.com/2016/05/28/footnotes-in-markdown.html</link>
+        <guid isPermaLink="true">http://dmcwo.com/2016/05/28/footnotes-in-markdown.html</guid>
         
+        <category>tinkering</category>
         
-        <category>jekyll</category>
+        <category>footnotes</category>
         
-        <category>update</category>
         
       </item>
     
@@ -191,11 +191,11 @@ Visit &lt;a href=&quot;http://dmcwo.github.io/tutorials/tutorial-a-generic-tutor
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 26 May 2016 21:12:29 -0700</pubDate>
-        <link>http://dmcwo.com/notebooks/2016/05/26/notebooks.html</link>
-        <guid isPermaLink="true">http://dmcwo.com/notebooks/2016/05/26/notebooks.html</guid>
-        
+        <link>http://dmcwo.com/2016/05/26/notebooks.html</link>
+        <guid isPermaLink="true">http://dmcwo.com/2016/05/26/notebooks.html</guid>
         
         <category>notebooks</category>
+        
         
       </item>
     
@@ -245,13 +245,13 @@ Visit &lt;a href=&quot;http://dmcwo.github.io/tutorials/tutorial-a-generic-tutor
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 21 May 2016 09:20:29 -0700</pubDate>
-        <link>http://dmcwo.com/jekyll/update/2016/05/21/a-post-about-pages.html</link>
-        <guid isPermaLink="true">http://dmcwo.com/jekyll/update/2016/05/21/a-post-about-pages.html</guid>
-        
+        <link>http://dmcwo.com/2016/05/21/a-post-about-pages.html</link>
+        <guid isPermaLink="true">http://dmcwo.com/2016/05/21/a-post-about-pages.html</guid>
         
         <category>jekyll</category>
         
-        <category>update</category>
+        <category>google fonts</category>
+        
         
       </item>
     
@@ -286,13 +286,13 @@ Visit &lt;a href=&quot;http://dmcwo.github.io/tutorials/tutorial-a-generic-tutor
 
 </description>
         <pubDate>Fri, 20 May 2016 21:12:29 -0700</pubDate>
-        <link>http://dmcwo.com/text,/jekyll/2016/05/20/text-is-the-best.html</link>
-        <guid isPermaLink="true">http://dmcwo.com/text,/jekyll/2016/05/20/text-is-the-best.html</guid>
+        <link>http://dmcwo.com/2016/05/20/text-is-the-best.html</link>
+        <guid isPermaLink="true">http://dmcwo.com/2016/05/20/text-is-the-best.html</guid>
         
-        
-        <category>text,</category>
+        <category>text</category>
         
         <category>jekyll</category>
+        
         
       </item>
     

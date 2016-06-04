@@ -2,7 +2,7 @@
 layout: post
 title:  "Text is the best."
 date:   2016-05-20 21:12:29 -0700
-categories: text, jekyll
+tags: [text, jekyll]
 ---
 I'm suddenly a huge fan of text files. <!--break--> Blogging w/ just text files -- why is that so cool? For some reason, it really is. I first got started playing around with [jekyll](jekyllrb.com) and then learned about [course-in-a-box](http://howto.p2pu.org/) both of which made me think that static is the new dynamic, for real.
 

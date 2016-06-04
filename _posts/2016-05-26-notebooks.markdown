@@ -2,7 +2,7 @@
 layout: post
 title:  "Notebooks 📓"
 date:   2016-05-26 21:12:29 -0700
-categories: notebooks
+tags: [notebooks]
 ---
 I've been thinking, continually, about notebooks. I've always wanted to be one of those people with shelves of moleskines, each one full of ideas and dreamwork. I'm not sure when it started. Certainly before I held (and smelled) a [Leonardo facsimile](http://www.library.ucla.edu/arts/elmer-belt-library-vinciana).<!--break-->
 
