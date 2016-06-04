@@ -2,7 +2,7 @@
 layout: post
 title:  "Coding your presentations"
 date:   2016-06-02 19:12:29 -0700
-categories: presentations, markdown, html
+tags: [tinkering, presentations, markdown, html, reveal.js]
 ---
 I recently ran across a set of slides with a clean, responsive design that looked great online. I took a look at the source, and it seemed like they were written with [R](https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations). Presentations in Markdown? Wow. Text really is the best.<!--break-->
 

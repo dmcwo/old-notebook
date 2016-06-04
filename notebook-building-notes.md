@@ -6,10 +6,6 @@ http://jmcglone.com/guides/github-pages/
 #### Stats
 a google analytics include: https://github.com/jmcglone/jmcglone.github.io/blob/master/_includes/analytics.html
 
-#### style pagination
-
-#### favicon
-
 ### CV
 
 #### turn cv into sub-directory with its own images
@@ -31,13 +27,9 @@ https://github.com/blog/2104-working-with-submodules
 
 #### turn off loquella?
 
-#### domain - codeacademy
-
 #### style footnotes somewhat differently
 
 they are a bit too predominant. just one dot? a ^ or similar?
-
-#### should the prev/next links appear at top, too?
 
 #### google analytics?
 
