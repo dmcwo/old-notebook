@@ -27,6 +27,9 @@ Visit <a href="http://dmcwo.github.io/tutorials/tutorial-a-generic-tutorial.html
 
 [Here's some demos from w/in this jekyll site]({{ site.url }}/presentations/)
 
+[Here's what it looks like so far](/presentations/)
+
+
 
 [^fn-why]: It is similar, I think, to the [reasoning](http://jmcglone.com/notes/2014/05/03/using-github-to-create-and-host-a-personal-website) behind making a switch from WordPress to [Jekyll](http://jekyllrb.com) — it seems nice to switch to simpler tools, and keep content in simple, and hopefully more enduring formats.
 [^fn-wondering]: I'm still wondering if I should use the sub-module feature for this sort of thing ….?

@@ -6,8 +6,8 @@
 </description>
     <link>http://dmcwo.com/</link>
     <atom:link href="http://dmcwo.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Jun 2016 22:32:59 -0700</pubDate>
-    <lastBuildDate>Fri, 03 Jun 2016 22:32:59 -0700</lastBuildDate>
+    <pubDate>Fri, 03 Jun 2016 22:35:12 -0700</pubDate>
+    <lastBuildDate>Fri, 03 Jun 2016 22:35:12 -0700</lastBuildDate>
     <generator>Jekyll v3.1.5</generator>
     
       <item>
@@ -36,6 +36,8 @@ Visit &lt;a href=&quot;http://dmcwo.github.io/tutorials/tutorial-a-generic-tutor
 &lt;p&gt;&lt;small&gt;See &lt;a href=&quot;http://dmcwo.github.io/tutorials/tutorial-a-generic-tutorial.html#/&quot;&gt;full version&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://dmcwo.com/presentations/&quot;&gt;Here’s some demos from w/in this jekyll site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/presentations/&quot;&gt;Here’s what it looks like so far&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
