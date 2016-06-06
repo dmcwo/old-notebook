@@ -10,7 +10,7 @@ title: notebook
 # email: you can put an email address here
 description: > # this means to ignore newlines until "baseurl:"
   a place to jot things down.
-baseurl: "old-notebook" # the subpath of your site, e.g. /blog /notebook
+baseurl: "/old-notebook" # the subpath of your site, e.g. /blog /notebook
 url: "http://dmcwo.com" # the base hostname & protocol for your site /notebook
 paginate: 5
 twitter_username: dmcwo
